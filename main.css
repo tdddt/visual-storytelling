@@ -1,0 +1,54 @@
+h1 {
+    font-size: 7vh;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0); 
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+.bg{
+    z-index: -5;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0); 
+}
+.ch{
+    z-index: -2;
+    position: fixed;
+    left: 35%;
+    top: 45%;
+    transform: translate(-50%, 0); 
+    max-width: 7vh; height: auto;
+}
+#CAPHECOZI2{
+    /* CAPHE COZY */
+    position: absolute;
+    left: 13.16%;
+    right: 60.78%;
+    top: 45.51%;
+    bottom: 47.87%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    transform: rotate(-29.99deg);
+}
+#textIn2{ 
+    position: absolute;
+    top: 5vw;
+    bottom: 5vw;
+    right: 5vw;
+    width: 20vw;
+    height: 70vh;
+    background-color: rgba(80, 80, 80, 0.24);
+}
+#textIn2 p {
+    margin : 10px;
+    font-family: 'Inter';
+    font-style: normal;
+}
