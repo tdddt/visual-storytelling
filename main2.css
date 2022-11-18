@@ -1,0 +1,32 @@
+.nextfloor{font-size: 100px; font-weight: 20px; position:absolute;
+    margin: auto;  top: 50%; left: 50%; transform: translate(-50%,-50%)}
+
+.behindT{ 
+    margin: auto; position:fixed; 
+    top: 10%; left: 10%;
+    text-align: center;
+}
+
+.behindR{
+    position: fixed;
+    width: 30%; height: 80%; right: 0%; top: 10%;
+    margin-right: 10%;
+}
+
+.behindL{
+    position: fixed;
+    width: 40% ; padding-left: 5% 10%; top: 20%;
+    margin-left: 10%;
+}
+
+.behindC{
+    position: absolute;
+    left: 25%; bottom: 10%;
+    width: 20%
+}
+
+.behindSB{
+    position: absolute;
+    right: 25%; bottom: 10%;
+    width: 25%
+}
