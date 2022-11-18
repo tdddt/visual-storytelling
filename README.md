@@ -1,5 +1,8 @@
-# visual-storytelling
+# 22-2 'visual-storytelling'
 
-테스트
+## 이야기를 보여조 
 
-10/7 금요일
+- 김근주
+- 김민형
+- 정한솔
+- 황유정
