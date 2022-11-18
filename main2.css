@@ -2,19 +2,19 @@
     margin: auto;  top: 50%; left: 50%; transform: translate(-50%,-50%)}
 
 .behindT{ 
-    margin: auto; position:fixed; 
+    margin: auto; position:absolute; 
     top: 10%; left: 10%;
     text-align: center;
 }
 
 .behindR{
-    position: fixed;
+    position: absolute;
     width: 30%; height: 80%; right: 0%; top: 10%;
     margin-right: 10%;
 }
 
 .behindL{
-    position: fixed;
+    position: absolute;
     width: 40% ; padding-left: 5% 10%; top: 20%;
     margin-left: 10%;
 }
