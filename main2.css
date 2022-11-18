@@ -25,6 +25,10 @@
     90%    { opacity: 0;}
     100%   { opacity: 1}
 }
+
+
+#text3-bear{ position: absolute; width:25%; margin:5%}
+
 .behindT{ 
     margin: auto; position:absolute; 
     top: 10%; left: 10%;
