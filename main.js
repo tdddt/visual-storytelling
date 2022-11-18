@@ -1,7 +1,7 @@
 var i = 1;
 var num = document.getElementsByClassName("screen").length;
 
-//while (i<=num){function nextClick(){}}
+//while (i<=0){function nextClick(){}}
 function nextClick() {
   if (i <= num) {
     var hide = document.getElementById(i);

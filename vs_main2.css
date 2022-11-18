@@ -1,0 +1,82 @@
+/*공통*/
+
+.nextfloor{ z-index: 9; opacity:0;
+    position: absolute; width: 60%; height: 100%; background-color: rgb(255, 255, 255); left:20%;
+    animation-name:nextfloor;
+    animation-duration:3s;
+}
+
+.nextfloorT{ z-index: 10;
+    font-size:  100px; font-weight: 20px;
+    position: fixed; margin:auto; top: 50%; left: 50%; transform: translate(-50%,-50%);
+}
+
+@keyframes nextfloor{
+    0% {opacity:1}
+    80% {opacity:1}
+    100% {opacity:0}
+}
+
+.keyplan { position: fixed; right: 5%; top: 5%; width: 5%}
+
+
+/* 3층*/
+.backthird{ z-index: 5;position: fixed; height: 120%; left: 25%;}
+
+#ani3 { z-index: 6;position: absolute; height: 30%; animation-name: ani3; animation-duration: 9s;}
+
+#text3{ z-index: 7;
+    position:absolute; height: 60%; width: 100%; 
+    background-color: azure;
+    animation-name: text3;
+    animation-duration: 9s;
+}
+
+#text3-bear{ z-index: 8; position: absolute; width:25%; margin:5%}
+
+@keyframes ani3{
+    0%  {left:33%; top:30%}
+    50%  {left:33%; top: 30%}   
+    70%    {left: 45%; top: 33%}
+    90%   {left:60%; top: 30%}
+    100% {left:60%; top: 30%}
+}
+
+@keyframes text3{
+    0%     { opacity: 0;}
+    90%    { opacity: 0;}
+    100%   { opacity: 1}
+}
+
+
+
+/*비하인드*/
+.behindT{ 
+    margin: auto; position:absolute; 
+    top: 10%; left: 10%;
+    text-align: center;
+}
+
+.behindR{
+    position: absolute;
+    width: 30%; height: 80%; right: 0%; top: 10%;
+    margin-right: 10%;
+}
+
+.behindL{
+    position: absolute;
+    width: 40% ; padding-left: 5% 10%; top: 20%;
+    margin-left: 10%;
+}
+
+.behindC{
+    position: absolute;
+    left: 25%; bottom: 10%;
+    width: 20%
+}
+
+.behindSB{
+    position: absolute;
+    right: 25%; bottom: 10%;
+    width: 25%
+}
