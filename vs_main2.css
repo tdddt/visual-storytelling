@@ -26,13 +26,16 @@
 #ani3 { z-index: 6;position: absolute; height: 30%; animation-name: ani3; animation-duration: 9s;}
 
 #text3{ z-index: 7;
-    position:absolute; height: 60%; width: 100%; 
+    position:absolute; height: 70%; width: 100%; 
     background-color: azure;
     animation-name: text3;
     animation-duration: 9s;
 }
 
-#text3-bear{ z-index: 8; position: absolute; width:25%; margin:5%}
+#text3-bear{ z-index: 8; position: absolute; width:70%; margin:5%; left:30%}
+#text3-play{ z-index: 8; position:absolute; width: 70%; top: 25%; margin: 5%; left:30%}
+#text3-al{ z-index: 8; position:absolute; width: 70%; top: 50%; margin: 5%; left:30%}
+
 
 @keyframes ani3{
     0%  {left:33%; top:30%}
