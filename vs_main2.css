@@ -72,33 +72,85 @@
     margin-left: 10%;
 }
 
-.behindC{
+.behindCmain{
     position: absolute;
-    left: 25%; bottom: 10%;
-    width: 20%
+    left: 20%; bottom: 5%;
+    width: 50%;
+    animation: moving 3s 
 }
 
-.behindSB{
+.behindC{
     position: absolute;
-    right: 25%; bottom: 10%;
-    width: 25%
+    right: 5%; bottom: 3%;
+    width: 55%;
+    
+}
+
+@keyframes moving{
+    from {left:0%} to {left: 20%}
 }
 
 /*goup*/
-#goupS{}
+.goup{ background-image: url(./img/B5L.jpg) ;background-size: auto; 
+    animation:backthird 5s; opacity:0}
+@goup {0%{opacity:1} 48%{opacity:1}}
 
-#goupP{}
+#goupS{ position:absolute; z-index: 8;width:100%; height: 100%;}
 
-#goupA{}
+#goupP{position:absolute; z-index: 8;width:100%; height: 100%;}
 
-#goupB{}
+#goupA{ position:absolute;z-index: 8;width:100%; height: 100%;}
 
-/*garden*/
+#goupB{ position:fixed; width:80%; height:100%;  z-index: 7;animation: goupB 5s; opacity:1}
+@goupB{ 50%{opacity:0} 90% {opacity:1}}
+
+/*id7*/
 #lastseed{}
 
+#character_sow{ animation:sow 10s}
+@sow{}
+
+#sowing{ animation: sowing 10s}
+@sowing{}
+
+#watering{ animation: watering 10s}
+@watering{}
+
+#b5lS{}
+#b5lP{}
+#b5lA{}
+#b5lC{}
+
+#seed1{}
+#seed2{}
+#seed3{}
+#seed4{}
+
+#b5lS1{}
+#b5lP1{}
+#b5lA1{}
+#b5lC1{}
+#water{}
+#waterb{}
+
+/*마지막말*/
 #lastS{}
-
 #lastP{}
-
 #lastA{}
+#lastC{}
+
+#waterb_S{}
+#waterb_P{}
+#waterb_A{}
+
+/*마지막모션*/
+#treefull{
+}
+#flowerfull{}
+#inv{}
+
+/*마지막초대장*/
+#invF{}
+#invB{}
+#lllast{}
 
