@@ -121,6 +121,10 @@ animation: buttonclose2 2s}
     from {left:0%} to {left: 20%}
 }
 
+.behindsugar{animation: sugaring 3s}
+
+@keyframes sugaring { from {opacity:0} to {opacity:0}}
+
 /*goup*/
 .goup{ background-image: url(./img/B5L.jpg) ;background-size: auto; 
     animation:backthird 5s; opacity:0}
