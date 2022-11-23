@@ -20,7 +20,7 @@
 .keyplan { position: fixed; right: 5%; top: 5%; width: 5%}
 
 
-/* 3층*/
+/* id1*/
 .backthird{ z-index: 5;position: fixed; height: 120%; left: 25%;}
 
 #ani3 { z-index: 6;position: absolute; height: 30%; 
@@ -29,21 +29,22 @@
 #text3{ z-index: 7;
     position:absolute; height: 70%; width: 100%; 
     background-color: azure;
-    animation-name: text3;
-    animation-duration: 9s;
+    animation: text3 9s;
 }
 
 #text3-bear{ z-index: 8; position: absolute; width:70%; margin:5%; left:30%}
 #text3-play{ z-index: 8; position:absolute; width: 70%; top: 25%; margin: 5%; left:30%}
 #text3-al{ z-index: 8; position:absolute; width: 70%; top: 50%; margin: 5%; left:30%}
-
+#img3-bear{position:absolute;width: 15%; left:5%; margin: 20px; margin: top 0;}
+#img3-play{position:absolute;width: 15%; left:5%;top:25%; margin: 20px}
+#img3-al{position:absolute;width:15%; left:5%;top:50%;margin: 20px}
 
 @keyframes ani3{
-    0%  {left:33%; top:30%}
-    50%  {left:33%; top: 30%}   
-    70%    {left: 45%; top: 33%}
-    90%   {left:60%; top: 30%}
-    100% {left:60%; top: 30%}
+    0%  {left:33%; top:35%}
+    50%  {left:33%; top: 35%}   
+    70%    {left: 45%; top: 38%}
+    90%   {left:55%; top: 35%}
+    100% {left:55%; top: 35%}
 }
 
 @keyframes text3{
@@ -61,7 +62,7 @@ animation: buttonclose1 9s}
 
 /*id2*/
 
-.id2chr{left:60%; top: 30%;z-index: 6;position: absolute;  height: 30%;
+.id2chr{left:50%; top: 30%;z-index: 6;position: absolute;  height: 30%;
 }
 
 #ani4{ z-index: 10;  position:absolute; height: 10%; animation: ani4 2s;}
@@ -80,7 +81,11 @@ animation: buttonclose2 2s}
 { 0% {right:0%; bottom: 0%} 100%{right:0%; bottom: 0%}}
 
 
-/*비하인드*/
+/*id3*/
+.behindsugar{animation: sugaring 3s}
+
+@keyframes sugaring { from {opacity:0} to {opacity:0}}
+
 .interview_B{}
 .interview_B:hover{ }
 
@@ -110,6 +115,10 @@ animation: buttonclose2 2s}
     animation: moving 3s 
 }
 
+@keyframes moving{
+    from {left:0%} to {left: 20%}
+}
+
 .behindC{
     position: absolute;
     right: 5%; bottom: 3%;
@@ -117,56 +126,54 @@ animation: buttonclose2 2s}
     
 }
 
-@keyframes moving{
-    from {left:0%} to {left: 20%}
+
+
+
+
+/*id6*/
+.goup{ background-image: url(img/B5L.jpg) ;background-size:cover;
+    opacity:0; animation:goup 5s
 }
+@keyframes goup{0%{opacity:1} 80%{opacity:1}}
 
-.behindsugar{animation: sugaring 3s}
+#goupS{ position:absolute; width:50%; height: 100%;left:10%}
 
-@keyframes sugaring { from {opacity:0} to {opacity:0}}
+#goupP{position:absolute;width:50%; height: 100%; left: 20%}
 
-/*goup*/
-.goup{ background-image: url(./img/B5L.jpg) ;background-size: auto; 
-    animation:backthird 5s; opacity:0}
-@goup {0%{opacity:1} 48%{opacity:1}}
+#goupA{ position:absolute;width:50%; height: 100%;left:30%}
 
-#goupS{ position:absolute; z-index: 8;width:100%; height: 100%;}
-
-#goupP{position:absolute; z-index: 8;width:100%; height: 100%;}
-
-#goupA{ position:absolute;z-index: 8;width:100%; height: 100%;}
-
-#goupB{ position:fixed; width:80%; height:100%;  z-index: 7;animation: goupB 5s; opacity:1}
-@goupB{ 50%{opacity:0} 90% {opacity:1}}
+#goupB{ position:fixed; width:80%; height:100%;animation: goupB 5s; opacity:1}
+@keyframes goupB{ 0%{opacity:0} 50%{opacity:0} 90% {opacity:1}}
 
 /*id7*/
-#lastseed{}
+#backid7{ background-image: url(img/B5L.jpg); background-size: cover;}
+#lastseed{position: fixed; width: 10%;}
 
-#character_sow{ animation:sow 10s}
-@sow{}
+#character_sow{ animation:sow 10s; opacity:0}
+@keyframes sow{0%{opacity:1} 30%{opacity:1}}
 
-#sowing{ animation: sowing 10s}
-@sowing{}
+#sowing{ animation: sowing 10s; opacity:0}
+@keyframes sowing{30%{opacity:0} 35%{opacity:1} 65%{opacity:1} }
 
-#watering{ animation: watering 10s}
-@watering{}
+#watering{ animation: watering 10s; opacity:1}
+@keyframes watering{ 65%{opacity:0}}
 
-#b5lS{}
-#b5lP{}
-#b5lA{}
-#b5lC{}
+#b5lS{position:fixed; width: 10%; left:5%;}
+#b5lP{position:fixed;width: 10%; left:15%;}
+#b5lA{position:fixed;width: 10%; left:20%;}
+#b5lC{position:fixed;width: 10%; right: 15%;}
 
-#seed1{}
-#seed2{}
-#seed3{}
-#seed4{}
+#seed1{position:fixed;width: 5%;right: 15%; top:10%;}
+#seed2{position:fixed;width: 5%; right: 18%; top: 13%;}
+#seed3{position:fixed;width: 5%; right: 22%; top: 17%;}
+#seed4{position:fixed;width: 5%; right: 26%; top: 22%}
 
-#b5lS1{}
-#b5lP1{}
-#b5lA1{}
-#b5lC1{}
-#water{}
-#waterb{}
+#b5lS1{position:fixed;width: 10%;left: 10%;}
+#b5lP1{position:fixed;width: 10%; left: 15%;}
+#b5lA1{position:fixed;width: 10%; right: 15%;}
+#b5lC1{position:fixed;width: 10%; right: 10%;}
+#water{position:fixed;width: 5%;}
+#waterb{position:fixed;width: 5%;}
 
 /*마지막말*/
 #lastS{}
