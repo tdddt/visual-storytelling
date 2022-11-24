@@ -100,19 +100,25 @@ animation: buttonclose2 3s}
 
 
 .behindT{ 
-    margin: auto; position:absolute; 
+    margin: auto; position:absolute; z-index: 2;
     top: 10%; left: 10%;
     text-align: center;
 }
 
 .behindR{
-    position: absolute;
-    width: 30%; height: 80%; right: 0%; top: 10%;
+    position: fixed;
+    width: 35%; height: 80%; right: 0%; top: 10%;
     margin-right: 10%;
 }
 
+.behindL_back{
+    position: absolute; z-index: 1;
+    width: 45%; height: 80%; left:10%; top:10%;
+    background-color: #fff0e9;
+}
+
 .behindL{
-    position: absolute;
+    position: absolute; z-index: 2;
     width: 40% ; padding-left: 5% 10%; top: 20%;
     margin-left: 10%;
 }
@@ -125,12 +131,12 @@ animation: buttonclose2 3s}
 }
 
 @keyframes moving{
-    from {left:0%} to {left: 20%}
+    0% {left:0%} 30%{left:0%}  100%{left: 20%}
 }
 
 .behindC{
     position: absolute;
-    right: 5%; bottom: 3%;
+    right: 4%; bottom: 3%;
     width: 55%;
     
 }
