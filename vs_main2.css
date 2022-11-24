@@ -106,7 +106,7 @@ animation: buttonclose2 3s}
 }
 
 .behindR{
-    position: fixed;
+    position: absolute;
     width: 35%; height: 80%; right: 0%; top: 10%;
     margin-right: 10%;
 }
