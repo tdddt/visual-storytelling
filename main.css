@@ -146,8 +146,8 @@
   transform: translate(50%, 0);
 }
 #all {
-  width: 80vw;
-  height: auto;
+  width: auto;
+  height: 90vh;
 }
 
 /*id=7*/
