@@ -30,28 +30,30 @@ animation: buttonclose 3s;
 /* id1*/
 .backthird{ z-index: 5;position: absolute; height: 100%; left: 0%;}
 
-#ani3 { z-index: 6;position: absolute; height: 30%; 
-    animation-name: ani3; animation-duration: 9s;}
+#ani3 { z-index: 6;position: absolute; height: 30%; opacity:0;
+    animation-name: ani3; animation-duration: 6s; animation-delay:3s
+}
+#씨앗4층{z-index:6; position:absolute; width:10%; left:64%; top:62%;}
 
 #text3{ z-index: 7;
     position:absolute; height: 70%; width: 100%; 
     background-color: #fff0e9;
-    animation: text3 9s;
+    animation: text3 9s; 
 }
 
 #text3-bear{ z-index: 8; position: absolute; width:70%; margin:5%; left:30%}
 #text3-play{ z-index: 8; position:absolute; width: 70%; top: 25%; margin: 5%; left:30%}
 #text3-al{ z-index: 8; position:absolute; width: 70%; top: 50%; margin: 5%; left:30%}
-#img3-bear{position:absolute;width: 15%; left:5%; margin: 20px; margin: top 0;}
-#img3-play{position:absolute;width: 15%; left:5%;top:25%; margin: 20px}
-#img3-al{position:absolute;width:15%; left:5%;top:50%;margin: 20px}
+#img3-bear{position:absolute;width: 15%; left:10%; margin: 20px; margin: top 0;}
+#img3-play{position:absolute;width: 15%; left:10%;top:25%; margin: 20px}
+#img3-al{position:absolute;width:15%; left:10%;top:50%;margin: 20px}
 
 @keyframes ani3{
-    0%  {left:33%; top:35%}
-    50%  {left:33%; top: 35%}   
-    70%    {left: 45%; top: 38%}
-    90%   {left:55%; top: 35%}
-    100% {left:55%; top: 35%}
+    0%  {opacity:1;   left:25%; top:50%}
+    30%  {opacity:1;  left:25%; top: 50%}   
+    60%    {opacity:1;left:40%; top: 55%}
+    90%   {opacity:1; left:55%; top: 52%}
+    100% {opacity:1;  left:55%; top: 52%}
 }
 
 @keyframes text3{
@@ -62,30 +64,30 @@ animation: buttonclose 3s;
 
 #nextbuttonclose1{background-color: #BADEE0; height:20%; width: 20%; 
     position: absolute;  z-index: 30; opacity:0;
-animation: buttonclose1 9s; animation-delay: 2.9s}
+animation: buttonclose1 7s; animation-delay: 3s}
 
 @keyframes buttonclose1
 { 0% {right:0%; bottom: 0%;opacity:1} 100%{right:0%; bottom: 0%;opacity:1}}
 
 /*id2*/
 
-.id2chr{left:50%; top: 30%;z-index: 6;position: absolute;  height: 30%;
+.id2chr{left:55%; top: 52%;z-index: 6;position: absolute;  height: 30%;
 }
 
-#ani4{ z-index: 10;  position:absolute; height: 10%; animation: ani4 2s;}
+#ani4{ z-index: 12;position:absolute; width: 10%; animation: ani4 3s;opacity:0}
 
 @keyframes ani4{
-    0% {left:65%; top: 40%}
-    50% {left: 65%; top: 35%}
-    100% {left: 60%; top: 40%}
+    0% {left:64%; top:62%; opacity:1}
+    50% {left: 63%; top: 58%; opacity:1}
+    100% {left: 59%; top: 60%; opacity:1}
 }
 
-#nextbuttonclose2{background-color: white; height:20%; width: 20%; 
-    position: fixed;  z-index: 12;
-animation: buttonclose2 2s}
+#nextbuttonclose2{background-color: #B8DDDE; height:20%; width: 20%; 
+    position: fixed;  z-index: 40; opacity:0;
+animation: buttonclose2 3s}
 
 @keyframes buttonclose2
-{ 0% {right:0%; bottom: 0%} 100%{right:0%; bottom: 0%}}
+{ 0% {right:0%; bottom: 0%; opacity:1} 100%{right:0%; bottom: 0%; opacity:1}}
 
 
 /*id3*/
