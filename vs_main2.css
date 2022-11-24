@@ -21,14 +21,14 @@
 
 
 /* id1*/
-.backthird{ z-index: 5;position: fixed; height: 120%; left: 25%;}
+.backthird{ z-index: 5;position: absolute; height: 100%; left: 25%;}
 
 #ani3 { z-index: 6;position: absolute; height: 30%; 
     animation-name: ani3; animation-duration: 9s;}
 
 #text3{ z-index: 7;
     position:absolute; height: 70%; width: 100%; 
-    background-color: azure;
+    background-color: #fff0e9;
     animation: text3 9s;
 }
 
@@ -54,7 +54,7 @@
 }
 
 #nextbuttonclose1{background-color: white; height:20%; width: 20%; 
-    position: fixed;  z-index: 12; opacity:0;
+    position: absolute;  z-index: 30; opacity:0;
 animation: buttonclose1 9s}
 
 @keyframes buttonclose1
