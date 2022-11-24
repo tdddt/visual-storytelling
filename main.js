@@ -13,12 +13,25 @@ function nextClick() {
     i++;
   }
   hideBack();
-
-  if (i == 9) {
+  if (i == 8) {
     next.style.display = "none";
     setTimeout(() => {
       next.style.display = "";
-    }, 8000);
+    }, 5000);
+  }
+  if (i == 9) {
+    next.style.display = "none";
+    var nf1 = document.getElementById("nextfloor1");
+    var bg10 = document.getElementById("bg10");
+    setTimeout(() => {
+      nf1.style.display = "";
+      bg10.style.display = "";
+    }, 10000);
+    setTimeout(() => {
+      next.style.display = "";
+    }, 12000);
+  }
+  if (i == 10) {
   }
 
   console.log(i);
