@@ -1,5 +1,5 @@
 #h1 {
-  font-size: 8vh;
+  font-size: 80px;
   font-family: "OmniGothic";
   text-align: center;
   position: fixed;
@@ -7,6 +7,12 @@
   transform: translate(-50%, 0);
   margin-top: 25vh;
   margin-bottom: 25vh;
+}
+
+@media (max-width: 800px) {
+  #h1 {
+    font-size: 40px;
+  }
 }
 
 /*id=2*/

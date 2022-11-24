@@ -1,22 +1,23 @@
-.btn {
-    z-index: 20;
-}
 .btnText {
-    font-size : 4vw;
-    position: absolute;
-    right: 11vw;
-    bottom: 5vw;
+  font-size: 4vw;
+  position: absolute;
+  right: 11vw;
+  bottom: 5vw;
 }
-.nextBtn{
-    position: absolute;
-    right: 5vw;
-    bottom: 5vw;
-    max-width: 4vw; height: auto;
+.nextBtn {
+  z-index: 20;
+  position: absolute;
+  right: 4vw;
+  bottom: 2vw;
+  max-width: 6vw;
+  height: auto;
 }
-.backBtn{
-    position: absolute;
-    left: 5vw;
-    bottom: 5vw;
-    max-width: 4vw; height: auto;
-    transform: rotate(180deg);
+.backBtn {
+  z-index: 20;
+  position: absolute;
+  left: 4vw;
+  bottom: 2vw;
+  max-width: 6vw;
+  height: auto;
+  transform: rotate(180deg);
 }

@@ -1,5 +1,7 @@
 var i = 1;
 var num = document.getElementsByClassName("screen").length;
+var back = document.getElementById("btn1");
+var next = document.getElementById("btn2");
 
 //while (i<=0){function nextClick(){}}
 function nextClick() {
@@ -10,6 +12,7 @@ function nextClick() {
     show.style.display = "";
     i++;
   }
+  hideBack();
 }
 
 function backClick() {
@@ -20,4 +23,15 @@ function backClick() {
     show.style.display = "";
     i--;
   }
+  hideBack();
 }
+
+function hideBack() {
+  if (i == 1) {
+    back.style.display = "none";
+  } else {
+    back.style.display = "";
+  }
+}
+
+hideBack();
