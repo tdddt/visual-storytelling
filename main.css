@@ -16,71 +16,84 @@
 }
 
 /*id=2*/
-.bg {
+.bg2 {
   z-index: -5;
   position: fixed;
   left: 50%;
+  max-width: 100vw;
   transform: translate(-50%, 0);
 }
-.ch {
+.ch2 {
   z-index: -2;
   position: fixed;
-  left: 35%;
-  top: 45%;
+  left: 30%;
+  top: 50%;
   transform: translate(-50%, 0);
-  max-width: 10vh;
+  max-width: 23vh;
   height: auto;
+  /*좌우반전*/
+  transform: scaleX(-1);
 }
 #CAPHECOZI2 {
   /* CAPHE COZY */
-  position: absolute;
-  left: 13.16%;
-  right: 60.78%;
-  top: 45.51%;
-  bottom: 47.87%;
+  position: fixed;
+  left: 15%;
+  top: 25%;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "OmniGothic";
+  font-style: bold;
+  font-weight: 800;
   font-size: 32px;
   line-height: 39px;
   text-align: center;
 
   transform: rotate(-29.99deg);
 }
-#textIn2 {
-  position: absolute;
+#intro2 {
+  z-index: -1;
+  position: fixed;
   top: 5vw;
   bottom: 5vw;
-  right: 5vw;
+  right: 10vw;
+  width: auto;
+  height: 70vh;
+}
+#textIn2 {
+  font-family: "OmniGothic";
+  position: fixed;
+  top: 6vw;
+  bottom: 5vw;
+  right: 7vw;
   width: 20vw;
   height: 70vh;
-  background-color: rgba(80, 80, 80, 0.24);
 }
 #textIn2 p {
   margin: 10px;
   font-family: "Inter";
   font-style: normal;
 }
+
 /*id=3*/
 #smoo3 {
   z-index: -1;
-  position: fixed;
+  position: absolute;
   left: 30%;
-  top: 45%;
+  top: 59%;
   transform: translate(-50%, 0);
-  max-width: 10vh;
+  max-width: 15vh;
   height: auto;
 }
 #invi3 {
   z-index: -1;
   position: fixed;
-  left: 40%;
-  top: 45%;
+  left: 43%;
+  top: 53%;
   transform: translate(-50%, 0);
   max-width: 10vh;
   height: auto;
 }
+
+/*id=4*/
 #smoo4 {
   z-index: -1;
   position: fixed;
@@ -99,18 +112,20 @@
   max-width: 50vh;
   height: auto;
 }
+
+/*id=5*/
 #invi5 {
   position: fixed;
   right: 50%;
-  bottom: 1vh;
-  transform: translate(50%, 0);
+  top: 50%;
+  transform: translate(50%, -50%);
   max-width: 120vh;
   height: auto;
 }
 #textIn5 {
   font-size: 2.5vh;
   text-align: center;
-
+  font-family: "OmniGothic";
   position: absolute;
   top: 38%;
   right: 50%;
@@ -119,48 +134,68 @@
   width: 93vh;
   height: auto;
 }
-#all {
+
+/*id=6*/
+#shown6 {
   position: fixed;
+  overflow: hidden;
+  border: 3px solid blue;
+  width: 80vw;
+  height: 90vh;
   right: 50%;
   transform: translate(50%, 0);
-  width: auto;
-  max-height: 100vh;
 }
-#bg7 {
+#all {
+  width: 80vw;
+  height: auto;
+}
+
+/*id=7*/
+.bg7 {
   z-index: -5;
   position: fixed;
   max-width: 100vw;
-  height: auto;
+  max-height: auto;
   right: 50%;
   transform: translate(50%, 0);
 }
-#gsbC7 {
-  z-index: -2;
+.gsbC7 {
+  z-index: -3;
   position: fixed;
-  left: 35%;
-  top: 45%;
+  left: 40%;
+  top: 60%;
   transform: translate(-50%, 0);
-  max-width: 15vh;
+  max-width: 30vh;
   height: auto;
 }
-#isnC7 {
-  z-index: -2;
+.isnC7 {
+  z-index: -3;
   position: fixed;
-  left: 45%;
-  top: 45%;
+  left: 50%;
+  top: 65%;
   transform: translate(-50%, 0);
-  max-width: 15vh;
+  max-width: 30vh;
   height: auto;
 }
-#zgC7 {
-  z-index: -2;
+.zgC7 {
+  z-index: -3;
   position: fixed;
-  left: 55%;
-  top: 45%;
+  left: 60%;
+  top: 60%;
   transform: translate(-50%, 0);
-  max-width: 15vh;
+  max-width: 30vh;
   height: auto;
 }
+.ch7 {
+  z-index: -3;
+  position: fixed;
+  left: 20%;
+  top: 57%;
+  transform: translate(-50%, 0);
+  max-width: 30vh;
+  height: auto;
+}
+/*id=8*/
 #bg8 {
   z-index: -5;
   position: fixed;
@@ -172,27 +207,85 @@
 #gsb8 {
   z-index: -2;
   position: fixed;
-  left: 35%;
-  top: 45%;
-  transform: translate(-50%, 0);
-  max-width: 15vh;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40vh;
   height: auto;
 }
 #isn8 {
   z-index: -2;
   position: fixed;
-  left: 45%;
-  top: 45%;
-  transform: translate(-50%, 0);
-  max-width: 15vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40vh;
   height: auto;
 }
 #zg8 {
   z-index: -2;
   position: fixed;
-  left: 55%;
-  top: 45%;
-  transform: translate(-50%, 0);
-  max-width: 15vh;
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 40vh;
   height: auto;
+}
+
+/*id=9*/
+#ch9 {
+  z-index: -3;
+  position: fixed;
+  left: 25%;
+  top: 60%;
+  transform: translate(-50%, 0);
+  max-width: 30vh;
+  height: auto;
+  animation-name: move9;
+  /*마지막 위치에 멈춤*/
+  -webkit-animation-fill-mode: both;
+  animation-duration: 9s;
+}
+@keyframes move9 {
+  from {
+    left: 25%;
+    top: 60%;
+  }
+  to {
+    left: 50%;
+    top: 65%;
+  }
+}
+
+/*id=10*/
+#bg10 {
+  z-index: -5;
+  position: fixed;
+  max-width: 100vw;
+  max-height: auto;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+#ch10 {
+  z-index: -3;
+  position: fixed;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, 0);
+  max-width: 30vh;
+  height: auto;
+  animation-name: move10;
+  /*마지막 위치에 멈춤*/
+  -webkit-animation-fill-mode: both;
+  animation-duration: 9s;
+}
+@keyframes move10 {
+  from {
+    left: 50%;
+    top: 65%;
+  }
+  to {
+    left: 50%;
+    top: 65%;
+  }
 }

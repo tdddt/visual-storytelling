@@ -13,6 +13,15 @@ function nextClick() {
     i++;
   }
   hideBack();
+
+  if (i == 9) {
+    next.style.display = "none";
+    setTimeout(() => {
+      next.style.display = "";
+    }, 8000);
+  }
+
+  console.log(i);
 }
 
 function backClick() {
@@ -23,7 +32,10 @@ function backClick() {
     show.style.display = "";
     i--;
   }
+
   hideBack();
+
+  console.log(i);
 }
 
 function hideBack() {
