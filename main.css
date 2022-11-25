@@ -488,7 +488,7 @@
   right: 50%;
   transform: translate(50%, 0);
 }
-#ch12 {
+.ch12 {
   z-index: -3;
   position: fixed;
   left: 42%;
@@ -511,7 +511,7 @@
     top: 48%;
   }
 }
-#seed12 {
+.seed12 {
   z-index: -4;
   max-width: 7vw;
   max-height: auto;
@@ -520,7 +520,7 @@
   top: 55%;
   transform: translate(-50%, 0);
 }
-#text12{
+.text12{
   font-family: "OmniGothic";
   position: fixed;
   bottom: 0vw;
@@ -528,4 +528,14 @@
   width: 50vw;
   height: 100vh;
   background-color: #fff0e9;
+}
+
+.ch12_2 {
+  z-index: -3;
+  position: fixed;
+  left: 48%;
+  top: 48%;
+  transform: translate(-50%, 0);
+  max-width: 20vh;
+  height: auto;
 }

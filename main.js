@@ -36,10 +36,14 @@ function nextClick() {
     }, 13000);
   }
   if (i == 10) {
+    next.style.display = "none";
     var text10 = document.getElementById("text10");
     setTimeout(() => {
       text10.style.display = "";
     }, 5000);
+    setTimeout(() => {
+      next.style.display = "";
+    }, 7000);
   }
   if (i == 11) {
     next.style.display = "none";
@@ -48,7 +52,7 @@ function nextClick() {
     }, 8000);
   }
   if (i == 12) {
-    var text12 = document.getElementById("text12");
+    var text12 = document.getElementsByClassName("text12")[0];
     setTimeout(() => {
       text12.style.display = "";
     }, 8000);
