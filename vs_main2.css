@@ -244,28 +244,37 @@ animation: goupA 6s}
 }
 
 /*마지막모션*/
-#treefull{
-}
-#flowerfull{}
-#inv{}
+#treefull{ animation:treefull 9s; opacity:0;}
+#flowerfull{animation:flowerfull 9s; opacity:1;}
+@keyframes treefull{ 0%{opacity:1} 50%{opacity:1} 51%{ opacity:0}}
+@keyframes flowerfull{ 0%{opacity:0} 50%{opacity:0} 55%{opacity:1}}
 
-#tf_t{}
-#tf_f1{}
-#tf_f2{}
-#tf_f3{}
-#tf_f4{}
-#tf_f5{}
-#tf_f6{}
 
-#ff_f1{}
-#ff_f2{}
-#ff_f3{}
-#ff_f4{}
-#ff_f5{}
-#ff_f6{}
+#tf_t{position:absolute; width:30%; height:100%;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#tf_f1{position:absolute; width:10%; left: 50%; top:0%;}
+#tf_f2{position:absolute; width:10%; left: 43%; top:10%}
+#tf_f3{position:absolute; width:10%; left: 52%; top: 20%}
+#tf_f4{position:absolute; width:10%; left: 38%; top: 25%}
+#tf_f5{position:absolute; width:10%; left: 42%; top:35%}
+#tf_f6{position:absolute; width:10%; left: 48%; top:45%}
+
+#ff_f1{position:absolute; width:40%; left: -5%; top:-5%}
+#ff_f2{position:absolute; width:40%; right:-5%; top:-5%}
+#ff_f3{position:absolute; width:50%; left:10%;top:5%}
+#ff_f4{position:absolute; width:40%; left:0%; top:10%}
+#ff_f5{position:absolute; width:40%; right:0%; top:10%}
+#ff_f6{position:absolute; width:40%; left:20%; top:20%}
+
+#inv{position:absolute; width:80%; left:10%;animation:inv 6s; opacity:1}
+@keyframes inv{0%{opacity:0} 89%{opacity:0} 90%{opacity:1}}
 
 /*마지막초대장*/
-#invF{}
-#invB{}
-#lllast{}
+#invF{position:absolute; width:30%; height:100%;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#invB{position:absolute; width:30%; height:100%;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);}
+#lllast{position:absolute; width:30%; height:100%;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);
+    text-align: center;}
 
