@@ -1,4 +1,4 @@
-var i = 9;
+var i = 11;
 var num = document.getElementsByClassName("screen").length;
 var back = document.getElementById("btn1");
 var next = document.getElementById("btn2");

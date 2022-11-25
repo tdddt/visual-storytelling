@@ -471,3 +471,45 @@
     opacity: 0;
   }
 }
+
+.bg12 {
+  z-index: -5;
+  position: fixed;
+  max-width: 100vw;
+  max-height: auto;
+  overflow-y: hidden;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+#ch12 {
+  z-index: -3;
+  position: fixed;
+  left: 42%;
+  top: 41%;
+  transform: translate(-50%, 0);
+  max-width: 20vh;
+  height: auto;
+  animation-name: move12;
+  /*마지막 위치에 멈춤*/
+  -webkit-animation-fill-mode: both;
+  animation-duration: 8s;
+}
+@keyframes move12 {
+  from {
+    left: 42%;
+    top: 41%;
+  }
+  to {
+    left: 48%;
+    top: 48%;
+  }
+}
+#seed12 {
+  z-index: -4;
+  max-width: 7vw;
+  max-height: auto;
+  position: fixed;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, 0);
+}
