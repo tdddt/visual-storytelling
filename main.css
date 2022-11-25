@@ -20,7 +20,8 @@
   z-index: -5;
   position: fixed;
   left: 50%;
-  max-width: 100vw;
+  height: 100vh;
+  width: auto;
   transform: translate(-50%, 0);
 }
 .ch2 {
