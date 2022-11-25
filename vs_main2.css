@@ -71,8 +71,7 @@ animation: buttonclose1 7s; animation-delay: 3s}
 
 /*id2*/
 
-.id2chr{left:55%; top: 52%;z-index: 6;position: absolute;  height: 30%;
-}
+.id2chr{left:55%; top: 52%;z-index: 6;position: absolute;  height: 30%;}
 
 #ani4{ z-index: 12;position:absolute; width: 10%; animation: ani4 3s;opacity:0}
 
@@ -82,9 +81,11 @@ animation: buttonclose1 7s; animation-delay: 3s}
     100% {left: 59%; top: 60%; opacity:1}
 }
 
-#nextbuttonclose2{background-color: #B8DDDE; height:20%; width: 20%; 
+#nextbuttonclose2{
+    background-color: #B8DDDE; height:20%; width: 20%; 
     position: fixed;  z-index: 40; opacity:0;
-animation: buttonclose2 3s}
+    animation: buttonclose2 3s
+}
 
 @keyframes buttonclose2
 { 0% {right:0%; bottom: 0%; opacity:1} 100%{right:0%; bottom: 0%; opacity:1}}
@@ -150,20 +151,31 @@ animation: buttonclose2 3s}
 }
 @keyframes goup{0%{opacity:1} 70%{opacity:1}}
 
-#goupM{position:absolute; width: 10%; top:25%; right:28%; z-index: 2;
-animation: goupM 6s}
-@keyframes goupM {0%{right: 33%; top:40%} 10%{right: 33%; top:40%} 
-90%{right: 30%; top:30%}}
+#goupM{
+    position:absolute; width: 10%; top:25%; right:28%; z-index: 2;
+    animation: goupM 6s
+}
+@keyframes goupM {
+    0%{right: 33%; top:40%} 
+    10%{right: 33%; top:40%} 
+    90%{right: 30%; top:30%}
+}
 
 #goupS{ position:absolute; width:10%; top: 18%;right:37%; z-index: 2;
 animation: goupS 6s}
-@keyframes goupS {0%{right:36%; top:50%} 10%{right:36%; top:50%}
-90%{right:33%; top:40%}}
+@keyframes goupS {
+    0%{right:36%; top:50%} 
+    10%{right:36%; top:50%}
+    90%{right:33%; top:40%}
+}
 
 #goupP{ position:absolute; width:10%; top:18%; right: 53%; z-index: 2;
 animation: goupP 6s}
-@keyframes goupP {0%{right:39%; top:60%} 10%{right:39%; top:60%} 
-90%{right:36%; top:50%}}
+@keyframes goupP {
+    0%{right:39%; top:60%} 
+    10%{right:39%; top:60%} 
+    90%{right:36%; top:50%}
+}
 
 #goupA{ position:absolute;width:10%; top:23%; right:60%; z-index: 2;
 animation: goupA 6s}
@@ -173,12 +185,20 @@ animation: goupA 6s}
 #goupB{ position:absolute; width:100%; height:100%; z-index: 1;
     animation: goupB 6s; opacity:1
 }
-@keyframes goupB{ 0%{opacity:0} 50%{opacity:0} 90% {opacity:1}}
+@keyframes goupB{ 
+    0%{opacity:0} 
+    50%{opacity:0} 
+    90% {opacity:1}
+}
 
 #gouptree{ position:absolute; width:5%; right: 45%; z-index: 2;
     animation: gouptree 6s; opacity:1
 }
-@keyframes gouptree{ 0%{opacity:0} 50%{opacity:0} 90% {opacity:1}}
+@keyframes gouptree{ 
+    0%{opacity:0} 
+    50%{opacity:0}
+    90% {opacity:1}
+}
 
 
 /*id7*/
@@ -228,6 +248,21 @@ animation: goupA 6s}
 }
 #flowerfull{}
 #inv{}
+
+#tf_t{}
+#tf_f1{}
+#tf_f2{}
+#tf_f3{}
+#tf_f4{}
+#tf_f5{}
+#tf_f6{}
+
+#ff_f1{}
+#ff_f2{}
+#ff_f3{}
+#ff_f4{}
+#ff_f5{}
+#ff_f6{}
 
 /*마지막초대장*/
 #invF{}
