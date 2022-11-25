@@ -520,3 +520,12 @@
   top: 55%;
   transform: translate(-50%, 0);
 }
+#text12{
+  font-family: "OmniGothic";
+  position: fixed;
+  bottom: 0vw;
+  right: 0vw;
+  width: 50vw;
+  height: 100vh;
+  background-color: #fff0e9;
+}

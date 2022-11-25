@@ -29,17 +29,29 @@ function nextClick() {
       nf1.style.display = "";
       bg10.style.display = "";
       ch9.style.display = "none";
-    }, 9000);
+    }, 8000);
     setTimeout(() => {
       next.style.display = "";
       ch10.style.display = "";
-    }, 15000);
+    }, 13000);
   }
   if (i == 10) {
     var text10 = document.getElementById("text10");
     setTimeout(() => {
       text10.style.display = "";
     }, 5000);
+  }
+  if (i == 11) {
+    next.style.display = "none";
+    setTimeout(() => {
+      next.style.display = "";
+    }, 8000);
+  }
+  if (i == 12) {
+    var text12 = document.getElementById("text12");
+    setTimeout(() => {
+      text12.style.display = "";
+    }, 8000);
   }
 
   console.log(i);
