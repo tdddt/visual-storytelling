@@ -14,8 +14,8 @@ animation: buttonclose 3s;
 {0% {right:0%; bottom: 0%;opacity:1} 100%{right:0%; bottom: 0%;opacity:1}}
 
 .nextfloorT{ z-index: 10;
-    font-size:  100px; font-weight: 20px;
-    position: fixed; margin:auto; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    font-size:  100px; font-weight: 1000px;
+    position: absolute; margin:auto; top: 50%; left: 50%; transform: translate(-50%,-50%);
 }
 
 @keyframes nextfloor{
@@ -24,19 +24,19 @@ animation: buttonclose 3s;
     100% {opacity:0}
 }
 
-.keyplan { position: fixed; right: 5%; top: 5%; width: 5%}
+.keyplan { position: absolute; right: 5%; top: 5%; width: 5%}
 
 
 /* id1*/
 .backthird{ z-index: 5;position: absolute; height: 100%; left: 0%;}
 
-#ani3 { z-index: 6;position: absolute; height: 30%; opacity:0;
+#ani3 { z-index: 6;position: absolute; height: 28%; opacity:0;
     animation-name: ani3; animation-duration: 6s; animation-delay:3s
 }
 #씨앗4층{z-index:6; position:absolute; width:10%; left:64%; top:62%;}
 
 #text3{ z-index: 7;
-    position:absolute; height: 70%; width: 100%; 
+    position:absolute; height: 100%; width: 100%; 
     background-color: #fff0e9;
     animation: text3 9s; 
 }
@@ -214,11 +214,11 @@ animation: goupA 6s}
 #watering{ animation: watering 10s; opacity:1;}
 @keyframes watering{ 0%{opacity:0} 65%{opacity:0}}
 
-#b5lS{ position:absolute;width: 10%; top:25%; right:28% }
-#b5lP{ position:absolute;width: 10%; top:18%; right: 53%;}
-#b5lA{ position:absolute;width: 10%; top:23%; right:60%;}
-#b5lC{ position:absolute;width: 10%; top: 18%; right:37%;}
-#lastseed{ position:absolute;width: 10%; top: 18%; right:37%}
+.b5lS{ position:absolute;width: 10%; top:25%; right:28% }
+.b5lP{ position:absolute;width: 10%; top:18%; right: 53%;}
+.b5lA{ position:absolute;width: 10%; top:23%; right:60%;}
+.b5lC{ position:absolute;width: 10%; top: 18%; right:37%;}
+.lastseed{ position:absolute;width: 10%; top: 18%; right:37%}
 
 #seed1{position:absolute;width: 5%; top: 16%; right:42%;}
 #seed2{position:absolute;width: 5%; top: 18%; right:41%;}
