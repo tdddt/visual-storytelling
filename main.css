@@ -296,17 +296,36 @@
     opacity: 0;
   }
 }
+#ch10 {
+  z-index: 0;
+  position: fixed;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, 0);
+  max-width: 30vh;
+  height: auto;
+}
 
 /*id=10*/
-#bg10real {
+.bg10real {
   z-index: -5;
   position: fixed;
   max-width: 100vw;
   max-height: auto;
+  overflow-y: hidden;
   right: 50%;
   transform: translate(50%, 0);
 }
-#ch10 {
+#seed10 {
+  z-index: -4;
+  max-width: 7vw;
+  max-height: auto;
+  position: fixed;
+  left: 40%;
+  top: 65%;
+  transform: translate(-50%, 0);
+}
+#ch10real {
   z-index: -3;
   position: fixed;
   left: 50%;
@@ -317,7 +336,7 @@
   animation-name: move10;
   /*마지막 위치에 멈춤*/
   -webkit-animation-fill-mode: both;
-  animation-duration: 9s;
+  animation-duration: 5s;
 }
 @keyframes move10 {
   from {
@@ -327,5 +346,128 @@
   to {
     left: 36%;
     top: 53%;
+  }
+}
+#text10 {
+  font-family: "OmniGothic";
+  position: fixed;
+  bottom: 0vw;
+  right: 0vw;
+  width: 50vw;
+  height: 100vh;
+  background-color: #fff0e9;
+}
+.img10 {
+  position: fixed;
+  top: 3vw;
+  bottom: 5vw;
+  right: 36vw;
+  width: 15vw;
+  height: auto;
+}
+.img10 img {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: auto;
+}
+.content10 {
+  font-family: "OmniGothic";
+  font-size: 20px;
+  position: fixed;
+  top: 3vw;
+  bottom: 5vw;
+  right: 6vw;
+  width: 30vw;
+  height: 70vh;
+}
+.title10 {
+  font-family: "OmniGothic";
+  font-size: 25px;
+  font-weight: 800;
+}
+
+/*id=11*/
+#ch11 {
+  z-index: -3;
+  position: fixed;
+  left: 36%;
+  top: 53%;
+  transform: translate(-50%, 0);
+  max-width: 30vh;
+  height: auto;
+}
+#seed11 {
+  z-index: -4;
+  max-width: 7vw;
+  max-height: auto;
+  position: fixed;
+  left: 40%;
+  top: 65%;
+  transform: translate(-50%, 0);
+  animation-name: seedMove11;
+  /*마지막 위치에 멈춤*/
+  -webkit-animation-fill-mode: both;
+  animation-duration: 8s;
+}
+@keyframes seedMove11 {
+  0% {
+    left: 40%;
+    top: 65%;
+  }
+  10% {
+    left: 40%;
+    top: 65%;
+  }
+  25% {
+    left: 45%;
+    top: 62%;
+  }
+  50% {
+    left: 45;
+    top: 57%;
+  }
+  75% {
+    left: 40%;
+    top: 60%;
+  }
+  100% {
+    left: 36%;
+    top: 62%;
+  }
+}
+
+/*id=12*/
+#nextfloor2 {
+  z-index: 9;
+  opacity: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  animation-delay: 10s;
+  animation: nextfloor 3s;
+}
+#nextfloorT2 {
+  font-family: "OmniGothic";
+  z-index: 10;
+  font-size: 100px;
+  font-weight: 20px;
+  position: fixed;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes nextfloor {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

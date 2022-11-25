@@ -1,4 +1,4 @@
-var i = 1;
+var i = 9;
 var num = document.getElementsByClassName("screen").length;
 var back = document.getElementById("btn1");
 var next = document.getElementById("btn2");
@@ -23,15 +23,23 @@ function nextClick() {
     next.style.display = "none";
     var nf1 = document.getElementById("nextfloor1");
     var bg10 = document.getElementById("bg10");
+    var ch10 = document.getElementById("ch10");
+    var ch9 = document.getElementById("ch9");
     setTimeout(() => {
       nf1.style.display = "";
       bg10.style.display = "";
-    }, 10000);
+      ch9.style.display = "none";
+    }, 9000);
     setTimeout(() => {
       next.style.display = "";
-    }, 12000);
+      ch10.style.display = "";
+    }, 15000);
   }
   if (i == 10) {
+    var text10 = document.getElementById("text10");
+    setTimeout(() => {
+      text10.style.display = "";
+    }, 5000);
   }
 
   console.log(i);
