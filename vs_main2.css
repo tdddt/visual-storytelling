@@ -270,11 +270,11 @@ animation: goupA 6s}
 @keyframes inv{0%{opacity:0} 89%{opacity:0} 90%{opacity:1}}
 
 /*마지막초대장*/
-#invF{position:absolute; width:30%; height:100%;
+#invF{position:absolute; width:5%; height:100%;
     top: 50%; left: 50%; transform: translate(-50%,-50%);}
 #invB{position:absolute; width:30%; height:100%;
     top: 50%; left: 50%; transform: translate(-50%,-50%);}
 #lllast{position:absolute; width:30%; height:100%;
-    top: 50%; left: 50%; transform: translate(-50%,-50%);
+    top: 50%; transform: translate(0%,-50%);
     text-align: center;}
 
