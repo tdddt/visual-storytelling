@@ -214,11 +214,11 @@ animation: goupA 6s}
 #watering{ animation: watering 10s; opacity:1;}
 @keyframes watering{ 0%{opacity:0} 65%{opacity:0}}
 
-#b5lS{ position:absolute;width: 10%; top:25%; right:28% }
-#b5lP{ position:absolute;width: 10%; top:18%; right: 53%;}
-#b5lA{ position:absolute;width: 10%; top:23%; right:60%;}
-#b5lC{ position:absolute;width: 10%; top: 18%; right:37%;}
-#lastseed{ position:absolute;width: 10%; top: 18%; right:37%}
+.b5lS{ position:absolute;width: 10%; top:25%; right:28% }
+.b5lP{ position:absolute;width: 10%; top:18%; right: 53%;}
+.b5lA{ position:absolute;width: 10%; top:23%; right:60%;}
+.b5lC{ position:absolute;width: 10%; top: 18%; right:37%;}
+.lastseed{ position:absolute;width: 10%; top: 18%; right:37%}
 
 #seed1{position:absolute;width: 5%; top: 16%; right:42%;}
 #seed2{position:absolute;width: 5%; top: 18%; right:41%;}
