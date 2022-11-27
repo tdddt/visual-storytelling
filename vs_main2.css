@@ -308,7 +308,7 @@ background-color: white;text-align: center;font-size: 10px; font-weight:bold}
 @keyframes treefull3{ 0%{opacity:0} 60%{opacity:0} 61%{opacity:1}}
 
 
-#inv{position:absolute; width:80%; left:10%;animation:inv 9s; opacity:1}
+#inv{position:absolute; width:80%; left:10%;animation:inv 6s; opacity:1}
 @keyframes inv{0%{opacity:0} 89%{opacity:0} 90%{opacity:1}}
 
 /*마지막초대장*/
