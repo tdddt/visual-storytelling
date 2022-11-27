@@ -10,19 +10,21 @@
 animation: buttonclose 3s;
 }
 
-@keyframes buttonclose
-{0% {right:0%; bottom: 0%;opacity:1} 100%{right:0%; bottom: 0%;opacity:1}}
-
-.nextfloorT{ z-index: 10;
-    font-size:  100px; font-weight: 1000px;
-    position: absolute; margin:auto; top: 50%; left: 50%; transform: translate(-50%,-50%);
-}
-
 @keyframes nextfloor{
     0% {opacity:1}
     80% {opacity:1}
     100% {opacity:0}
 }
+
+@keyframes buttonclose
+{0% {right:0%; bottom: 0%;opacity:1} 80%{right:0%; bottom: 0%;opacity:1}}
+
+.nextfloorT{ z-index: 10;
+    font-size:  90px; font-weight: 1000px; text-align:center;
+    position: absolute; margin:auto; top: 50%; left: 50%; transform: translate(-50%,-50%);
+}
+
+
 
 .keyplan { position: absolute; right: 5%; top: 5%; width: 5%; z-index: 7;}
 
@@ -30,15 +32,16 @@ animation: buttonclose 3s;
 /* id1*/
 .backthird{ z-index: 5;position: absolute; width:100%; height: 100%; left: 0%;}
 
-#ani3 { z-index: 6;position: absolute; height: 28%; opacity:0;
-    animation-name: ani3; animation-duration: 6s; animation-delay:3s
+#ani3 { z-index: 6;position: absolute; height: 28%; opacity:1;
+    left:25%; top:50%;
+    animation-name: ani3; animation-duration: 7s; animation-delay:3s
 }
 #씨앗4층{z-index:6; position:absolute; width:10%; left:64%; top:62%;}
 
 #text3{ z-index: 7;
     position:absolute; height: 100%; width: 100%; 
     background-color: #fff0e9;
-    animation: text3 9s; 
+    animation: text3 10s; 
 }
 
 #text3-bear{ z-index: 8; position: absolute; width:70%; margin:5%; left:30%}
@@ -51,9 +54,9 @@ animation: buttonclose 3s;
 @keyframes ani3{
     0%  {opacity:1;   left:25%; top:50%}
     30%  {opacity:1;  left:25%; top: 50%}   
-    60%    {opacity:1;left:40%; top: 55%}
-    90%   {opacity:1; left:55%; top: 52%}
-    100% {opacity:1;  left:55%; top: 52%}
+    60%    {opacity:1;left: 42%; top: 58%}
+    90%   {opacity:1; left:55%; top: 54%}
+    100%  {opacity:1; left:55%; top: 54%}
 }
 
 @keyframes text3{
@@ -64,7 +67,7 @@ animation: buttonclose 3s;
 
 #nextbuttonclose1{background-color: #BADEE0; height:20%; width: 20%; 
     position: absolute;  z-index: 30; opacity:0;
-animation: buttonclose1 7s; animation-delay: 3s}
+animation: buttonclose1 5.5s; animation-delay: 2.5s}
 
 @keyframes buttonclose1
 { 0% {right:0%; bottom: 0%;opacity:1} 100%{right:0%; bottom: 0%;opacity:1}}
@@ -73,14 +76,21 @@ animation: buttonclose1 7s; animation-delay: 3s}
 
 .id2chr{left:55%; top: 52%;z-index: 6;position: absolute;  height: 30%;}
 
-#ani4{ z-index: 12;position:absolute; width: 10%; animation: ani4 3s;opacity:0}
+#ani4{ z-index: 12;position:absolute; width: 10%; text-align: center; animation: ani4 3s;opacity:0}
+#ani4-1{ z-index: 12;position:absolute;animation: ani4-1 3s;opacity:0}
 
+@keyframes ani4-1{
+    0% {left:67%; top: 60%; opacity:1}
+    50% {left: 66%; top: 56%; opacity:1}
+    52% {left: 61%; top:50%; opacity:1}
+    100% {left: 61%; top:50%;opacity:0}
+    
+}
 @keyframes ani4{
     0% {left:64%; top:62%; opacity:1}
     50% {left: 63%; top: 58%; opacity:1}
     100% {left: 59%; top: 60%; opacity:1}
 }
-
 #nextbuttonclose2{
     background-color: #B8DDDE; height:20%; width: 20%; 
     position: fixed;  z-index: 40; opacity:0;
@@ -92,91 +102,124 @@ animation: buttonclose1 7s; animation-delay: 3s}
 
 
 /*id3*/
-.behindsugar{animation: sugaring 3s}
+.behindfloor{animation: sugaring 6.5s; }
 
 @keyframes sugaring { from {opacity:0} to {opacity:0}}
+
+#nextbuttonclose3{
+    background-color: #B8DDDE; height:20%; width: 20%; 
+    position: fixed;  z-index: 40; opacity:0;
+    animation: buttonclose3 6.5s
+}
+
+@keyframes buttonclose3
+{ 0% {right:0%; bottom: 0%; opacity:0} 
+  41% {right:0%; bottom: 0%; opacity:0}
+  41.5% {right:0%; bottom: 0%; opacity:1}
+ 100%{right:0%; bottom: 0%; opacity:1}
+}
+
 
 .interview_B{}
 .interview_B:hover{ }
 
 
 .behindT{ 
-    margin: auto; position:absolute; z-index: 2;
+    margin: auto; position:absolute; z-index: 9;
     top: 10%; left: 10%;
     text-align: center;
 }
 
 .behindR{
-    position: absolute;
+    position: absolute; z-index: 9;
     width: 35%; height: 80%; right: 10%; top: 10%;
 }
 
 .behindL_back{
-    position: absolute; z-index: 1;
-    width: 45%; height: 80%; left:10%; top:10%;
+    position: absolute; z-index: 8;
+    width: 100%; height: 100%; 
     background-color: #fff0e9;
 }
 
 .behindL{
-    position: absolute; z-index: 2;
+    position: absolute; z-index: 9;
     width: 40% ; padding-left: 5% 10%; top: 20%;
     margin-left: 10%;
 }
 
-.behindCmain{
-    position: absolute;
-    left: 20%; bottom: 5%;
-    width: 50%; margin-left:0%;
-}
 
-
-.behindC{
-    position: absolute;
-    right: 4%; bottom: 3%;
-    width: 55%;
-    
-}
-
-
-
-
+#behindfloor_b{ position:absolute; width:100%; height:100%;}
+#b_m{position:absolute; width: 10%; top: 47%; left: 27%;}
+#b_s{position:absolute; width: 10%; top: 43%; left: 32%;}
+#b_p{position:absolute; width: 10%; top: 39%; left: 38%;}
+#b_a{position:absolute; width: 10%; top: 34%; left: 43%;}
 
 /*id6*/
+#nextbuttonclose4{
+    background-color: #B8DDDE; height:20%; width: 13%; 
+    position: fixed;  z-index: 40; opacity:0;
+    animation: buttonclose4 6s
+}
+
+@keyframes buttonclose4
+{ 0% {right:0%; bottom: 0%; opacity:1} 
+ 100%{right:0%; bottom: 0%; opacity:1}
+}
+
+
 .goup{position:absolute; width:100%; height:100%;z-index: 1;
     opacity:0; animation:goup 6s
 }
 @keyframes goup{0%{opacity:1} 70%{opacity:1}}
 
 #goupM{
-    position:absolute; width: 10%; top:25%; right:28%; z-index: 2;
+    position:absolute; width: 10%; top:25%; right:28%; z-index: 2; opacity:0;
     animation: goupM 6s
 }
 @keyframes goupM {
-    0%{right: 33%; top:40%} 
+    0%{right: 33%; top:40%; opacity:1} 
     10%{right: 33%; top:40%} 
-    90%{right: 30%; top:30%}
+    65%{right: 30%; top:30%; opacity:1}
+    76%{opacity:0}
+    90%{opacity:0}
+    
 }
+#goupM_1{position:absolute; width:6%; top:25%;right:28%; z-index:2;animation:M_1 6s}
+@keyframes M_1{0%{opacity:0} 90%{opacity:0} 91%{top:25%; right:28%}}
 
-#goupS{ position:absolute; width:10%; top: 18%;right:37%; z-index: 2;
+#goupS{ position:absolute; width:10%; top: 18%;right:37%; z-index: 2; opacity:0;
 animation: goupS 6s}
 @keyframes goupS {
-    0%{right:36%; top:50%} 
-    10%{right:36%; top:50%}
-    90%{right:33%; top:40%}
+    0%{right:36%; top:50%; opacity:1} 
+    10%{right:36%; top:50%;}
+    65%{right:33%; top:40%; opacity:1}
+    76%{opacity:0}
+    90%{opacity:0}
 }
+#goupS_1{position:absolute; width:8%; top:18%;right:37%; z-index:2;animation:S_1 6s}
+@keyframes S_1{0%{opacity:0} 90%{opacity:0} 91%{top:18%; right:37%}}
 
 #goupP{ position:absolute; width:10%; top:18%; right: 53%; z-index: 2;
 animation: goupP 6s}
 @keyframes goupP {
     0%{right:39%; top:60%} 
     10%{right:39%; top:60%} 
-    90%{right:36%; top:50%}
+    65%{right:36%; top:50%; opacity:1}
+    76%{opacity:0}
+    90%{opacity:0}
+    91%{top:18%; right:53%}
 }
 
-#goupA{ position:absolute;width:10%; top:23%; right:60%; z-index: 2;
+#goupA{ position:absolute;width:10%; top:24%; right:61%; z-index: 2;
 animation: goupA 6s}
-@keyframes goupA {0%{right:42%; top:65%} 10%{right:42%; top:65%} 
-90%{right:39%; top:60%}}
+@keyframes goupA {
+    0%{right:42%; top:65%} 
+    10%{right:42%; top:65%} 
+    65%{right:39%; top:60%;opacity:1}
+    76%{opacity:0}
+    90%{opacity:0}
+    91%{top:24%; right:61%}
+}
 
 #goupB{ position:absolute; width:100%; height:100%; z-index: 1;
     animation: goupB 6s; opacity:1
@@ -187,7 +230,7 @@ animation: goupA 6s}
     90% {opacity:1}
 }
 
-#gouptree{ position:absolute; width:5%; right: 45%; z-index: 2;
+#gouptree{ position:absolute; width:9%; right: 46%;top:2%; z-index: 2;
     animation: gouptree 6s; opacity:1
 }
 @keyframes gouptree{ 
@@ -199,44 +242,55 @@ animation: goupA 6s}
 
 /*id7*/
 .backid7{ position:absolute; height: 100%; width:100%}
-.treesow{ position:absolute;width:5%;right:45%}
+.treesow{ position:absolute; width:9%; right: 46%;top:2%;}
 
 #character_sow{ animation:sow 10s; opacity:0;}
-@keyframes sow{0%{opacity:1} 30%{opacity:1} 35%{opacity:0}}
+@keyframes sow{0%{opacity:1}  65%{opacity:1}}
 
 #sowing{ animation: sowing 10s; opacity:0;}
 @keyframes sowing{0%{opacity:0}35%{opacity:0} 40%{opacity:1} 65%{opacity:1} }
 
+.lastseed{ position:absolute;width: 6%; top: 18%; right:40%; opacity:0; animation:ls 10s}
+@keyframes ls{0%{opacity:1}35%{opacity:1} 40%{opacity:0}}
+
 #watering{ animation: watering 10s; opacity:1;}
 @keyframes watering{ 0%{opacity:0} 65%{opacity:0}}
 
-.b5lS{ position:absolute;width: 10%; top:25%; right:28% }
-.b5lP{ position:absolute;width: 10%; top:18%; right: 53%;}
-.b5lA{ position:absolute;width: 10%; top:23%; right:60%;}
-.b5lC{ position:absolute;width: 10%; top: 18%; right:37%;}
-.lastseed{ position:absolute;width: 10%; top: 18%; right:37%}
+.b5lS{ position:absolute;width: 8%; top:25%; right:28% }
+.b5lP{ position:absolute;width: 11%; top:18%; right: 53%;}
+.b5lA{ position:absolute;width: 11%; top:25%; right:61%;}
+.b5lC{ position:absolute;width: 6%; top:18%; right:37%;}
 
-#seed1{position:absolute;width: 5%; top: 16%; right:42%;}
-#seed2{position:absolute;width: 5%; top: 18%; right:41%;}
-#seed3{position:absolute;width: 5%; top: 17%; right:43%;}
-#seed4{position:absolute;width: 5%; top: 15%; right:44%;}
+#seed1{position:absolute;width: 5%; top: 21%; right:41%;}
+#seed2{position:absolute;width: 5%; top: 15%; right:43.5%;}
+#seed3{position:absolute;width: 5%; top: 12%; right:46%;}
+#seed4{position:absolute;width: 5%; top: 14%; right:49%;}
 
-#b5lS1{position:absolute;width: 10%;top:18%; right:37%;}
-#b5lP1{position:absolute;width: 10%;top:18%; right: 53%;}
-#b5lA1{position:absolute;width: 10%;top:23%; right:60%;}
-#b5lC1{position:absolute;width: 10%;top:25%; right:28% }
+#seed_1{position:absolute; top: 20%; right:42%;
+background-color: white;text-align: center; font-size: 7px; font-weight:bold}
+#seed_2{position:absolute; top: 15%; right:44.5%;
+background-color: white;text-align: center;font-size: 10px; font-weight:bold}
+#seed_3{position:absolute; top: 12%; right:47%;
+background-color: white;text-align: center;font-size: 10px; font-weight:bold}
+#seed_4{position:absolute; top: 14%; right:50%;
+background-color: white;text-align: center;font-size: 10px; font-weight:bold}
+
+#b5lS1{position:absolute;width: 7%;top:18%; right:37%;}
+#b5lP1{position:absolute;width: 11%;top:18%; right: 53%;}
+#b5lA1{position:absolute;width: 11%;top:25%; right: 61%;}
+#b5lC1{position:absolute;width: 6%;top:25%; right:29% }
 #water{position:absolute;width: 5%;}
-#waterb{position:absolute;width: 5%;top: 18%; right: 42%}
+#waterb{position:absolute;width: 8%;top: 20%; right: 40%; transform:rotate(30deg)}
 
 /*마지막말*/
-.id8text{opacity:0.5;animation:id8text}
+.id8text{opacity:0.4;animation:id8text}
 
 #treesow1{position:absolute;width:5%;right:50%;}
 #treesow2{position:absolute;width:7%;right:45%}
 #treesow3{position:absolute;width:10%;right:45%}
 
 .lasttext{position:absolute; width:100%; height:60%; top:20%; 
-    background-color:#fff0e9;
+    background-color:#fff0e9; text-align: center;
 }
 
 /*마지막모션*/
