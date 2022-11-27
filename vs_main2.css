@@ -230,14 +230,6 @@ animation: goupA 6s}
     90% {opacity:1}
 }
 
-#gouptree{ position:absolute; width:9%; right: 46%;top:2%; z-index: 2;
-    animation: gouptree 6s; opacity:1
-}
-@keyframes gouptree{ 
-    0%{opacity:0} 
-    50%{opacity:0}
-    90% {opacity:1}
-}
 
 
 /*id7*/
