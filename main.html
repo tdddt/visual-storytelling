@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./main2.css" />
+    <link rel="stylesheet" href="./main3.css" />
     <link rel="stylesheet" href="./button.css" />
     <link rel="stylesheet" href="./font/font.css" />
     <title>VisualStorytelling</title>
@@ -26,10 +27,18 @@
 
     <!--카페코지 설명-->
     <div id="2" class="screen" style="display: none">
+      <div class="smoo2">
+        <img class="smoo2_1" src="./img/스무디.png" />
+        <img class="smoo2_2" src="./img/스무디.png" />
+        <img class="smoo2_3" src="./img/스무디.png" />
+        <img class="smoo2_4" src="./img/스무디.png" />
+        <img class="smoo2_5" src="./img/스무디.png" />
+        <img class="smoo2_6" src="./img/스무디.png" />
+      </div>
       <img class="bg2" src="./img/cozi_bg.png" />
-      <img class="ch2" src="./img/CL_main.png" />
-
-      <div>
+      <img class="ch2" src="./img/CL_main.png" style="display: none;"/>
+      
+      <div id="text2" style="display: none;">
         <img id="intro2" src="./img/coziintro.png" />
         <p id="titleIn2"><카페코지></p>
         <p id="textIn2">&nbsp;&nbsp;코코넛 커피 스무디(이하 ‘코커스’)가 대표메뉴인 카페코지는, 
@@ -43,48 +52,54 @@
     <div id="3" class="screen" style="display: none">
       <img class="bg2" src="./img/cozi_bg.png" />
       <img class="ch2" src="./img/CL_main.png" />
-      <img id="smoo3" src="./img/스무디.png" />
-      <img id="invi3" src="./img/초대장1.png" />
-    </div>
+      <div>
+        <img class="smoo2_1" src="./img/스무디.png" />
+        <img class="smoo2_2" src="./img/스무디.png" />
+        <img class="smoo2_3" src="./img/스무디.png" />
+        <img class="smoo2_4" src="./img/스무디.png" />
+        <img class="smoo2_5" src="./img/스무디.png" />
+        <img class="smoo2_6" src="./img/스무디.png" />
+      </div>
 
-    <!--초대장, 코커스 확대-->
-    <div id="4" class="screen" style="display: none">
-      <img id="smoo4" src="./img/스무디.png" />
-      <img id="invi4" src="./img/초대장1.png" />
-    </div>
+      <div>
+        <img id="invi3" src="./img/초대장1.png" />
+      </div>
 
-    <!--초대장-->
-    <div id="5" class="sc1reen" style="display: none">
-      <img id="invi5" src="./img/초대장3.png" />
-      <div id="textIn5">
-        안녕하세요?
-        <p>
-          드시고 있는 코코넛커피스무디는 2017년 대동제 이후 학교 앞 인기 가게가
-          되어 현재 전국 프랜차이즈로 뻗어나가고 있습니다.
-        </p>
-        <p>
-          이화여대 학생들이 또 이대 앞에 어떤 가게를 창업하였는지 궁금하지
-          않나요?
-        </p>
-        <p>
-          대동제에서 시작해 프랜차이즈를 만들어 가고 있는 사업가 굿바이슈가베어
-          사장님, 본인의 삶의 모토를 바탕으로 창업을 꾸려나가는 이세계는
-          놀이터예요 사장님, 하고 싶은게 많은 과감히 도전하는 공대생 주객전도
-          사장님을 만나봅시다.
-        </p>
-        <p>자 그럼, 엔터를 눌러보세요!</p>
+      <div class="bgColor" style="display: none;">
+        <div id="invi3_move">
+          <img id="invi3_change1" src="./img/초대장1_1.png" />
+          <img id="invi3_change2" src="./img/초대장3_1.png" style="display: none;"/>
+          <div id="textIn3" style="display: none;">
+            안녕하세요?
+            <p></p>
+            <p>
+              드시고 있는 코코넛커피스무디는 2017년 대동제 이후 <p></p>학교 앞 인기 가게가
+              되어 현재 전국 프랜차이즈로 뻗어나가고 있습니다.
+            </p>
+            <p>
+              이화여대 학생들이 또 이대 앞에 어떤 가게를 창업하였는지 궁금하지
+              않나요?
+            </p>
+            <p>
+              대동제에서 시작해 프랜차이즈를 만들어 가고 있는 사업가 굿바이슈가베어
+              사장님, <p></p>본인의 삶의 모토를 바탕으로 창업을 꾸려나가는 이세계는
+              놀이터예요 사장님, <p></p>하고 싶은게 많은 과감히 도전하는 공대생 주객전도
+              사장님을 만나봅시다.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
     <!--건물 이동-->
-    <div id="6" class="screen" style="display: none">
+    <div id="4" class="screen" style="display: none">
       <div id="shown6">
         <!--<img id="all" src="./img/전체.png" />-->
       </div>
     </div>
 
     <!--사장님 캐릭터-->
-    <div id="7" class="screen" style="display: none">
+    <div id="5" class="screen" style="display: none">
       <img class="bg7" src="./img/B0.png" />
       <img class="ch7" src="./img/CL_main_inv.png" />
       <img class="gsbC7" src="./img/CF_sugar.png" />
@@ -93,7 +108,7 @@
     </div>
 
     <!--가게 소개-->
-    <div id="8" class="screen" style="display: none">
+    <div id="6" class="screen" style="display: none">
       <img class="bg7" src="./img/B0.png" />
       <img class="ch7" src="./img/CL_main_inv.png" />
       <img class="gsbC7" src="./img/CF_sugar.png" />
@@ -105,7 +120,7 @@
     </div>
 
     <!--내부로 이동-->
-    <div id="9" class="screen" style="display: none">
+    <div id="7" class="screen" style="display: none">
       <img class="bg7" src="./img/B0.png" />
       <img id="ch9" src="./img/CL_main_inv.png" />
       <div id="nextfloor1" style="display: none">
@@ -116,7 +131,7 @@
     </div>
 
     <!--1층-->
-    <div id="10" class="screen" style="display: none">
+    <div id="8" class="screen" style="display: none">
       <div width="100%" height="100%">
         <img class="bg10real" src="./img/B1.png" />
         <img id="ch10real" src="./img/CF_main_inv.png" />
@@ -178,14 +193,14 @@
     </div>
 
     <!--1층 씨앗-->
-    <div id="11" class="screen"  style="display: none">
+    <div id="9" class="screen"  style="display: none">
       <img class="bg10real" src="./img/B1.png" />
       <img id="ch11" src="./img/CF_main_inv.png" />
       <img id="seed11" src="./img/씨앗.png" />
     </div>
 
     <!--2층-->
-    <div id="12" class="screen" style="display: none">
+    <div id="10" class="screen" style="display: none">
       <div id="nextfloor2">
         <p id="nextfloorT2">어떤 계기로 가게를 시작하게 되셨나요?</p>
       </div>
@@ -213,7 +228,7 @@
     </div>
 
     <!--2층 답변2-->
-    <div id="13" class="screen" style="display: none">
+    <div id="11" class="screen" style="display: none">
       <img class="bg12" src="./img/B2.png" />
       <img class="ch12_2" src="./img/CF_main_inv.png" />
       <img class="seed12" src="./img/씨앗.png" />
@@ -240,7 +255,7 @@
     </div>
 
     <!--2층 답변3-->
-    <div id="14" class="screen" style="display: none">
+    <div id="12" class="screen" style="display: none">
       <img class="bg12" src="./img/B2.png" />
       <img class="ch12_2" src="./img/CF_main_inv.png" />
       <img class="seed12" src="./img/씨앗.png" />
@@ -264,12 +279,12 @@
     </div>
 
     <!--3층 스크롤-->
-    <div id="15" class="screen" style="display: none">
+    <div id="13" class="screen" style="display: none">
       <img id="bg8" src="./img/B3.png" />
     </div>
 
     <!--3층 씨앗-->
-    <div id="16" class="screen" style="display: none">
+    <div id="14" class="screen" style="display: none">
       <img id="bg8" src="./img/B3.png" />
     </div>
 

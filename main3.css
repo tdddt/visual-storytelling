@@ -1,19 +1,84 @@
 /*id=3*/
-#smoo3 {
-    z-index: -1;
-    position: absolute;
-    left: 30%;
-    top: 59%;
-    transform: translate(-50%, 0);
-    max-width: 15vh;
-    height: auto;
-  }
   #invi3 {
     z-index: -1;
+    position: absolute;
+    left: 28%;
+    top: 52%;
+    width: 2vw;
+    height: auto;
+    animation-name: moveInvi3;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 4s;
+  }
+  @keyframes moveInvi3 {
+    0%{
+        transform: scale(0.5,0.5);
+    }
+    100%{
+        transform: scale(2.0,2.0);
+        left:32%;
+        top:55%
+    }
+  }
+  .bgColor{
+    background-color: #fff0e9;
+    width:100vw;
+    height:100vh;
+    z-index:5;
+  }
+  #invi3_move {
     position: fixed;
-    left: 43%;
-    top: 53%;
-    transform: translate(-50%, 0);
-    max-width: 10vh;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
+  #invi3_change1{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 60vw;
+    animation-name: fadeOut3;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1.5s;
+  }
+  
+@keyframes fadeOut3 {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+#invi3_change2{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 60vw;
+    height: auto;
+    animation-name: fadeIn3;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1.5s;
+  }
+@keyframes fadeIn3 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+#textIn3 {
+    font-size: 2.5vh;
+    text-align: center;
+    font-family: "OmniGothic";
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,-30%);
+    width: 50vw;
     height: auto;
   }

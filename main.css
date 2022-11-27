@@ -15,68 +15,6 @@
   }
 }
 
-/*id=3*/
-#smoo3 {
-  z-index: -1;
-  position: absolute;
-  left: 30%;
-  top: 59%;
-  transform: translate(-50%, 0);
-  max-width: 15vh;
-  height: auto;
-}
-#invi3 {
-  z-index: -1;
-  position: fixed;
-  left: 43%;
-  top: 53%;
-  transform: translate(-50%, 0);
-  max-width: 10vh;
-  height: auto;
-}
-
-/*id=4*/
-#smoo4 {
-  z-index: -1;
-  position: fixed;
-  left: 30%;
-  top: 35%;
-  transform: translate(-50%, 0);
-  max-width: 40vh;
-  height: auto;
-}
-#invi4 {
-  z-index: -1;
-  position: fixed;
-  right: 30%;
-  top: 35%;
-  transform: translate(50%, 0);
-  max-width: 50vh;
-  height: auto;
-}
-
-/*id=5*/
-#invi5 {
-  position: fixed;
-  right: 50%;
-  top: 50%;
-  transform: translate(50%, -50%);
-  max-width: 120vh;
-  height: auto;
-}
-#textIn5 {
-  font-size: 2.5vh;
-  text-align: center;
-  font-family: "OmniGothic";
-  position: absolute;
-  top: 38%;
-  right: 50%;
-  transform: translate(50%, 0);
-
-  width: 93vh;
-  height: auto;
-}
-
 /*id=6*/
 #shown6 {
   position: fixed;

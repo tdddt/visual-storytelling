@@ -2,6 +2,7 @@ var i = 1;
 var num = document.getElementsByClassName("screen").length;
 var back = document.getElementById("btn1");
 var next = document.getElementById("btn2");
+var bg = document.getElementsByClassName('bgColor');
 
 //while (i<=0){function nextClick(){}}
 function nextClick() {
@@ -13,6 +14,39 @@ function nextClick() {
     i++;
   }
   hideBack();
+
+  if(i==2){
+    next.style.display = "none";
+    var ch2 = document.getElementsByClassName('ch2')[0];
+    var text2 = document.getElementById('text2');
+    setTimeout(() => {
+      ch2.style.display = "";
+    }, 2000);
+    setTimeout(() => {
+      text2.style.display = "";
+      next.style.display = "";
+    }, 3000);
+  }
+  if(i==3){
+    next.style.display="none";
+    var text3 = document.getElementById('textIn3');
+    var invi3_1 = document.getElementById('invi3_change1');
+    var invi3_2 = document.getElementById('invi3_change2');
+    //초대장 배경 나타남
+    setTimeout(() => {
+      bg[0].style.display="";
+    }, 4000);
+    //초대장 변경
+    setTimeout(() => {
+      invi3_1.style.display = "none";
+      invi3_2.style.display="";
+    }, 5500);
+    setTimeout(() => {
+      next.style.display = "";
+      text3.style.display="";
+    }, 7000);
+  }
+
   if (i == 8) {
     next.style.display = "none";
     setTimeout(() => {
