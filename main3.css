@@ -1,0 +1,19 @@
+/*id=3*/
+#smoo3 {
+    z-index: -1;
+    position: absolute;
+    left: 30%;
+    top: 59%;
+    transform: translate(-50%, 0);
+    max-width: 15vh;
+    height: auto;
+  }
+  #invi3 {
+    z-index: -1;
+    position: fixed;
+    left: 43%;
+    top: 53%;
+    transform: translate(-50%, 0);
+    max-width: 10vh;
+    height: auto;
+  }

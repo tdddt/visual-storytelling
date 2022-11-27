@@ -15,60 +15,6 @@
   }
 }
 
-/*id=2*/
-.bg2 {
-  position:absolute; width:100%; height:100%
-}
-.ch2 {
-  z-index: -2;
-  position: fixed;
-  left: 30%;
-  top: 50%;
-  transform: translate(-50%, 0);
-  max-width: 23vh;
-  height: auto;
-  /*좌우반전*/
-  transform: scaleX(-1);
-}
-#CAPHECOZI2 {
-  /* CAPHE COZY */
-  position: fixed;
-  left: 15%;
-  top: 25%;
-
-  font-family: "OmniGothic";
-  font-style: bold;
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-
-  transform: rotate(-29.99deg);
-}
-#intro2 {
-  z-index: -1;
-  position: fixed;
-  top: 5vw;
-  bottom: 5vw;
-  right: 10vw;
-  width: auto;
-  height: 70vh;
-}
-#textIn2 {
-  font-family: "OmniGothic";
-  position: fixed;
-  top: 6vw;
-  bottom: 5vw;
-  right: 7vw;
-  width: 20vw;
-  height: 70vh;
-}
-#textIn2 p {
-  margin: 10px;
-  font-family: "Inter";
-  font-style: normal;
-}
-
 /*id=3*/
 #smoo3 {
   z-index: -1;
