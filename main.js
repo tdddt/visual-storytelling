@@ -40,11 +40,22 @@ function nextClick() {
     setTimeout(() => {
       invi3_1.style.display = "none";
       invi3_2.style.display="";
-    }, 5500);
+    }, 6500);
     setTimeout(() => {
       next.style.display = "";
       text3.style.display="";
-    }, 7000);
+    }, 8000);
+  }
+  if(i==4){
+    var owner4 = document.getElementsByClassName('owner4')[0];
+    next.style.display="none";
+
+    setTimeout(() => {
+      owner4.style.display="";
+    }, 12000);
+    setTimeout(() => {
+      next.style.display = "";
+    }, 13000);
   }
 
   if (i == 8) {

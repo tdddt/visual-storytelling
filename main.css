@@ -15,21 +15,6 @@
   }
 }
 
-/*id=6*/
-#shown6 {
-  position: fixed;
-  overflow: hidden;
-  border: 3px solid blue;
-  width: 80vw;
-  height: 90vh;
-  right: 50%;
-  transform: translate(50%, 0);
-}
-#all {
-  width: auto;
-  height: 90vh;
-}
-
 /*id=7*/
 .bg7 {
   z-index: -5;
