@@ -2,7 +2,7 @@ var i = 1;
 var num = document.getElementsByClassName("screen").length;
 var back = document.getElementById("btn1");
 var next = document.getElementById("btn2");
-var bg = document.getElementsByClassName('bgColor');
+var bg = document.getElementsByClassName("bgColor");
 
 //while (i<=0){function nextClick(){}}
 function nextClick() {
@@ -15,47 +15,68 @@ function nextClick() {
   }
   hideBack();
 
-  if(i==2){
+  if (i == 2) {
     next.style.display = "none";
-    var ch2 = document.getElementsByClassName('ch2')[0];
-    var text2 = document.getElementById('text2');
+    var ch2 = document.getElementsByClassName("ch2")[0];
+    var text2 = document.getElementById("text2");
     setTimeout(() => {
       ch2.style.display = "";
-    }, 2000);
+    }, 1500);
     setTimeout(() => {
       text2.style.display = "";
       next.style.display = "";
-    }, 3000);
+    }, 2500);
   }
-  if(i==3){
-    next.style.display="none";
-    var text3 = document.getElementById('textIn3');
-    var invi3_1 = document.getElementById('invi3_change1');
-    var invi3_2 = document.getElementById('invi3_change2');
+  if (i == 3) {
+    next.style.display = "none";
+    var text3 = document.getElementById("textIn3");
+    var invi3_1 = document.getElementById("invi3_change1");
+    var invi3_2 = document.getElementById("invi3_change2");
     //초대장 배경 나타남
     setTimeout(() => {
-      bg[0].style.display="";
+      bg[0].style.display = "";
     }, 4000);
     //초대장 변경
     setTimeout(() => {
       invi3_1.style.display = "none";
-      invi3_2.style.display="";
+      invi3_2.style.display = "";
     }, 6500);
     setTimeout(() => {
       next.style.display = "";
-      text3.style.display="";
+      text3.style.display = "";
     }, 8000);
   }
-  if(i==4){
-    var owner4 = document.getElementsByClassName('owner4')[0];
-    next.style.display="none";
+  if (i == 4) {
+    var owner4 = document.getElementsByClassName("owner4")[0];
+    var info4C = document.getElementById("info4C");
+    next.style.display = "none";
 
     setTimeout(() => {
-      owner4.style.display="";
-    }, 12000);
+      owner4.style.display = "";
+    }, 10000);
     setTimeout(() => {
+      info4C.style.display = "";
       next.style.display = "";
-    }, 13000);
+    }, 10500);
+  }
+  if (i == 5) {
+    var ch5 = document.getElementById("ch5");
+    var ch5_2 = document.getElementById("ch5_2");
+    var ch5_3 = document.getElementById("ch5_3");
+    var nf1 = document.getElementById("nextfloor1");
+    next.style.display = "none";
+
+    setTimeout(() => {
+      ch5.style.display = "none";
+      ch5_2.style.display = "";
+    }, 5000);
+
+    setTimeout(() => {
+      ch5_3.style.display = "";
+      nf1.style.display = "";
+    }, 6500);
+  }
+  if (i == 6) {
   }
 
   if (i == 8) {
@@ -66,7 +87,7 @@ function nextClick() {
   }
   if (i == 9) {
     next.style.display = "none";
-    var nf1 = document.getElementById("nextfloor1");
+
     var bg10 = document.getElementById("bg10");
     var ch10 = document.getElementById("ch10");
     var ch9 = document.getElementById("ch9");
