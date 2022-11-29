@@ -64,6 +64,10 @@ function nextClick() {
     var ch5_2 = document.getElementById("ch5_2");
     var ch5_3 = document.getElementById("ch5_3");
     var nf1 = document.getElementById("nextfloor1");
+    var bg5_1 = document.getElementById("bg5_1");
+    var ch5_4 = document.getElementById("ch5_4");
+    var seed = document.getElementById("seed5");
+    var text = document.getElementById("text5");
     next.style.display = "none";
 
     setTimeout(() => {
@@ -73,9 +77,24 @@ function nextClick() {
 
     setTimeout(() => {
       ch5_3.style.display = "";
-      nf1.style.display = "";
     }, 6500);
+
+    setTimeout(() => {
+      nf1.style.display = "";
+      bg5_1.style.display = "";
+      ch5_3.style.display = "none";
+      ch5_4.style.display = "";
+      seed.style.display = "";
+    }, 7500);
+
+    setTimeout(() => {
+      text.style.display = "";
+    }, 16000);
+    setTimeout(() => {
+      next.style.display = "";
+    }, 17000);
   }
+
   if (i == 6) {
   }
 
