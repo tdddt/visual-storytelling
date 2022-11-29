@@ -47,9 +47,9 @@ animation: buttonclose 3s;
 #text3-bear{ z-index: 8; position: absolute; width:70%; margin:5%; left:30%}
 #text3-play{ z-index: 8; position:absolute; width: 70%; top: 25%; margin: 5%; left:30%}
 #text3-al{ z-index: 8; position:absolute; width: 70%; top: 50%; margin: 5%; left:30%}
-#img3-bear{position:absolute;width: 15%; left:10%; margin: 20px; margin: top 0;}
-#img3-play{position:absolute;width: 15%; left:10%;top:25%; margin: 20px}
-#img3-al{position:absolute;width:15%; left:10%;top:50%;margin: 20px}
+#img3-bear{position:absolute;width: 12%; left:15%; top:5%;margin: 20px; margin: top 0;}
+#img3-play{position:absolute;width: 12%; left:15%;top:30%; margin: 20px}
+#img3-al{position:absolute;width:12%; left:15%;top:55%;margin: 20px}
 
 @keyframes ani3{
     0%  {opacity:1;   left:25%; top:50%}
@@ -332,3 +332,6 @@ background-color: white;text-align: center;font-size: 10px; font-weight:bold}
 #lllast{position:absolute; top: 50%; left: 50%;transform: translate(-50%,-50%); 
     margin:0%; color:white; text-align: center;}
 
+/**/
+#close{position:absolute; background-color: white; width:20%; height:20%;
+right: 0%; bottom:0%;}
