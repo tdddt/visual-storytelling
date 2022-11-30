@@ -67,7 +67,7 @@ function nextClick() {
     var bg5_1 = document.getElementById("bg5_1");
     var ch5_4 = document.getElementById("ch5_4");
     var seed = document.getElementById("seed5");
-    var text = document.getElementById("text5");
+    var text = document.getElementsByClassName("text5")[0];
     next.style.display = "none";
 
     setTimeout(() => {
@@ -96,50 +96,17 @@ function nextClick() {
   }
 
   if (i == 6) {
-  }
-
-  if (i == 8) {
     next.style.display = "none";
     setTimeout(() => {
       next.style.display = "";
     }, 5000);
   }
-  if (i == 9) {
+  if (i == 7) {
     next.style.display = "none";
-
-    var bg10 = document.getElementById("bg10");
-    var ch10 = document.getElementById("ch10");
-    var ch9 = document.getElementById("ch9");
+    var text = document.getElementsByClassName("text5")[1];
     setTimeout(() => {
-      nf1.style.display = "";
-      bg10.style.display = "";
-      ch9.style.display = "none";
-    }, 8000);
-    setTimeout(() => {
+      text.style.display = "";
       next.style.display = "";
-      ch10.style.display = "";
-    }, 13000);
-  }
-  if (i == 10) {
-    next.style.display = "none";
-    var text10 = document.getElementById("text10");
-    setTimeout(() => {
-      text10.style.display = "";
-    }, 5000);
-    setTimeout(() => {
-      next.style.display = "";
-    }, 7000);
-  }
-  if (i == 11) {
-    next.style.display = "none";
-    setTimeout(() => {
-      next.style.display = "";
-    }, 8000);
-  }
-  if (i == 12) {
-    var text12 = document.getElementsByClassName("text12")[0];
-    setTimeout(() => {
-      text12.style.display = "";
     }, 8000);
   }
 

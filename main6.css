@@ -1,0 +1,65 @@
+#bg6 {
+  z-index: -8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#ch6 {
+  z-index: -2;
+  position: absolute;
+  left: 27.5%;
+  top: 27.5%;
+  height: 30%;
+}
+#seed6 {
+  z-index: -3;
+  width: 10%;
+  position: absolute;
+  left: 33%;
+  top: 35%;
+  animation: 4s moveS6 1s;
+  -webkit-animation-fill-mode: both;
+}
+#text6 {
+  z-index: -3;
+  width: 10%;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  animation: 4s moveT6 1s;
+  -webkit-animation-fill-mode: both;
+}
+@keyframes moveS6 {
+  0% {
+    left: 33%;
+    top: 35%;
+    opacity: 1;
+  }
+  50% {
+    left: 33%;
+    top: 30%;
+    opacity: 1;
+  }
+  100% {
+    left: 30%;
+    top: 35%;
+    opacity: 0;
+  }
+}
+@keyframes moveT6 {
+  0% {
+    left: 40%;
+    top: 35%;
+    opacity: 1;
+  }
+  50% {
+    left: 40%;
+    top: 30%;
+    opacity: 1;
+  }
+  100% {
+    left: 35%;
+    top: 35%;
+    opacity: 0;
+  }
+}
