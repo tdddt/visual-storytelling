@@ -370,6 +370,45 @@
   left: 43%;
 }
 
+
+#behindS1{
+  position:absolute; z-index: 10;
+  width: 15%;
+  left: 35%; bottom: 10%;
+  transform:rotate(20deg);
+}
+#behindS2{
+  position:absolute; z-index: 10;
+  width: 20%;
+  left:10%; bottom:20%;
+  transform:rotate(-10deg);
+}
+#behindP1{
+  position:absolute; z-index: 10;
+  width: 20%;
+  left: 10%; bottom: 15%;
+  transform:rotate(-20deg);
+}
+
+#behindP2{
+  position:absolute; z-index: 10;
+  width: 15%;
+  left: 35%; bottom: 15%;
+  transform:rotate(20deg);
+}
+#behindA1{
+  position:absolute; z-index: 10;
+  width: 15%;
+  left: 36%; bottom: 13%;
+  transform:rotate(20deg);
+  
+}
+#behindA2{
+  position:absolute; z-index: 10;
+  width: 23%;
+  left: 10%; bottom: 10%;
+}
+
 /*id6*/
 
 
@@ -802,6 +841,42 @@
 #goodbyeplay{font-size: 1.5em;text-align: center; color:green;}
 #goodbyealchol{font-size: 1.5em;text-align: center; color:blue;}
 
+#goodbyesugarch{
+  position: absolute;
+  width:22%;
+  bottom: 18%; right: 0%;
+  transform:rotate(10deg)
+}
+#goodbyesugarch2{
+  position: absolute;
+  width:22%;
+  bottom: 18%; left: 0%;
+  transform:rotate(-10deg)
+}
+#goodbyeplaych{
+  position:absolute;
+  width:22%;
+  bottom: 20%; right:2%;
+  transform: rotate(10deg);
+}
+#goodbyeplaych2{
+  position:absolute;
+  width:22%;
+  bottom: 20%; left:2%;
+  transform: rotate(-10deg);
+}
+#goodbyealcholch{
+  position: absolute;
+  width:22%;
+  bottom: 18%; right: 0%;
+  transform:rotate(10deg)
+}
+#goodbyealcholch2{
+  position: absolute;
+  width:22%;
+  bottom: 18%; left: 0%;
+  transform:rotate(-10deg)
+}
 /*마지막모션*/
 
 #treefull1 {
@@ -870,7 +945,7 @@
   position: absolute;
   width: 80%;
   left: 10%;
-  animation: inv 5s;
+  animation: inv 4.5s;
   opacity: 1;
 }
 @keyframes inv {
@@ -893,7 +968,7 @@
   top: 0%;
   left: 25%;
   opacity: 0;
-  animation: invF 2.5s;
+  animation: invF 2s;
 }
 @keyframes invF {
   from {
@@ -911,7 +986,7 @@
   height: 100%;
   top: 0%;
   left: 25%;
-  animation: showinv 5s;
+  animation: showinv 4s;
 }
 @keyframes showinv {
   from {
@@ -952,12 +1027,12 @@
   height:100%;
 }
 #close {
-  position: absolute;
+  position: fixed;
   background-color: white;
-  width: 20%;
-  height: 20%;
+  width: 10%;
+  height: 10%;
   right: 0%;
-  bottom: 0%;
+  bottom: 0%; opacity:1; z-index: 40;
 }
 
 #teamname{
