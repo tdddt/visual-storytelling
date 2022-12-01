@@ -3,6 +3,7 @@ var num = document.getElementsByClassName("screen").length;
 var back = document.getElementById("btn1");
 var next = document.getElementById("btn2");
 var bg = document.getElementsByClassName("bgColor");
+var kp = document.getElementsByClassName("keyplan");
 
 //while (i<=0){function nextClick(){}}
 function nextClick() {
@@ -82,6 +83,7 @@ function nextClick() {
     setTimeout(() => {
       nf1.style.display = "";
       bg5_1.style.display = "";
+      kp[0].style.display = "";
       ch5_3.style.display = "none";
       ch5_4.style.display = "";
       seed.style.display = "";
@@ -103,7 +105,7 @@ function nextClick() {
   }
   if (i == 7) {
     next.style.display = "none";
-    var text = document.getElementsByClassName("text5")[1];
+    var text = document.getElementsByClassName("text7")[0];
     setTimeout(() => {
       text.style.display = "";
       next.style.display = "";
