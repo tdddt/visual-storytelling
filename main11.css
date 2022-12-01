@@ -7,33 +7,24 @@
 #ch11 {
   z-index: -2;
   position: absolute;
-  left: 47%;
-  top: 55%;
+  left: 61%;
+  top: 33%;
   height: 28%;
+  transform: scaleX(-1);
   animation: 5s moveCh11 5s; /*name delay*/
   -webkit-animation-fill-mode: both;
 }
 @keyframes moveCh11 {
   0% {
-    left: 47%;
-    top: 55%;
-  }
-  20% {
     left: 61%;
-    top: 30%;
-    transform: scaleX(0);
+    top: 33%;
   }
-  25% {
-    left: 61%;
-    top: 30%;
-    transform: scaleX(-1);
-  }
-  50% {
+  33% {
     left: 55%;
     top: 13%;
     transform: scaleX(-1);
   }
-  75% {
+  66% {
     left: 43%;
     top: 4%;
     transform: scaleX(-1);
