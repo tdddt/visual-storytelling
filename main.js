@@ -111,6 +111,20 @@ function nextClick() {
       next.style.display = "";
     }, 8000);
   }
+  if (i == 10) {
+    next.style.display = "none";
+    setTimeout(() => {
+      next.style.display = "";
+    }, 5000);
+  }
+  if (i == 11) {
+    next.style.display = "none";
+    var text = document.getElementsByClassName("text7")[3];
+    setTimeout(() => {
+      text.style.display = "";
+      next.style.display = "";
+    }, 8000);
+  }
 
   console.log(i);
 }

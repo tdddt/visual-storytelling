@@ -11,7 +11,7 @@
   top: 33%;
   height: 28%;
   transform: scaleX(-1);
-  animation: 5s moveCh11 5s; /*name delay*/
+  animation: 5s moveCh11 3s; /*name delay*/
   -webkit-animation-fill-mode: both;
 }
 @keyframes moveCh11 {
