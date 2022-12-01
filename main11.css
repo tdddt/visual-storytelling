@@ -7,22 +7,47 @@
 #ch11 {
   z-index: -2;
   position: absolute;
-  left: 32%;
-  top: 27.5%;
-  height: 30%;
-  /*animation: 3s moveCh11 2s;*/
+  left: 47%;
+  top: 55%;
+  height: 28%;
+  animation: 5s moveCh11 5s; /*name delay*/
   -webkit-animation-fill-mode: both;
 }
 @keyframes moveCh11 {
-  to {
-    left: 40%;
-    top: 35%;
+  0% {
+    left: 47%;
+    top: 55%;
+  }
+  20% {
+    left: 61%;
+    top: 30%;
+    transform: scaleX(0);
+  }
+  25% {
+    left: 61%;
+    top: 30%;
+    transform: scaleX(-1);
+  }
+  50% {
+    left: 55%;
+    top: 13%;
+    transform: scaleX(-1);
+  }
+  75% {
+    left: 43%;
+    top: 4%;
+    transform: scaleX(-1);
+  }
+  100% {
+    left: 30%;
+    top: 16%;
+    transform: scaleX(-1);
   }
 }
-#seed7 {
+#seed11 {
   z-index: -2;
   position: absolute;
-  left: 45.5%;
-  top: 49%;
+  left: 27%;
+  top: 30%;
   width: 10%;
 }
