@@ -21,7 +21,7 @@ function nextClick() {
     setTimeout(() => {
       back.style.display= "";
       next.style.display = "";
-    }, 7000);
+    }, 7);
   }
 
   if (i == 2) {
@@ -30,7 +30,7 @@ function nextClick() {
     setTimeout(() => {
       back.style.display= "";
       next.style.display = "";
-    }, 3000);
+    }, 3);
   }
 
   if (i == 3) {
@@ -39,7 +39,7 @@ function nextClick() {
     setTimeout(() => {
       back.style.display= "";
       next.style.display = "";
-    }, 3000);
+    }, 3);
   }
 
   console.log(i);
