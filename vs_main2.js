@@ -21,7 +21,7 @@ function nextClick() {
     setTimeout(() => {
       back.style.display= "";
       next.style.display = "";
-    }, 7);
+    }, 6000);
   }
 
   if (i == 2) {
@@ -30,8 +30,9 @@ function nextClick() {
     setTimeout(() => {
       back.style.display= "";
       next.style.display = "";
-    }, 3);
+    }, 3000);
   }
+
 
   if (i == 3) {
     next.style.display = "none";
@@ -39,9 +40,35 @@ function nextClick() {
     setTimeout(() => {
       back.style.display= "";
       next.style.display = "";
-    }, 3);
+    }, 7000);
   }
 
+  if (i == 6) {
+    next.style.display = "none";
+    back.style.display=  "none";
+    setTimeout(() => {
+      back.style.display= "";
+      next.style.display = "";
+    }, 6000);
+  }
+
+  if (i == 7) {
+    next.style.display = "none";
+    back.style.display=  "none";
+    setTimeout(() => {
+      back.style.display= "";
+      next.style.display = "";
+    }, 10000);
+  }
+ 
+ if (i == 11) {
+  next.style.display = "none";
+  back.style.display=  "none";
+  setTimeout(() => {
+    back.style.display= "";
+    next.style.display = "";
+  }, 4000);
+ }
   console.log(i);
 }
 

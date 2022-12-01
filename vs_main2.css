@@ -141,6 +141,14 @@
   margin: 5%;
   left: 35%;
 }
+#text3-alplus{
+  z-index: 8;
+  position: absolute;
+  width: 40%;
+  top: 77%;
+  left: 40%;
+  font-size: 0.8em;
+}
 #img3-bear {
   position: absolute;
   width: 14%;
@@ -877,7 +885,7 @@
   bottom: 18%; left: 0%;
   transform:rotate(-10deg)
 }
-/*마지막모션*/
+/*마지막모션,id11*/
 
 #treefull1 {
   position: absolute;
@@ -1030,7 +1038,7 @@
   position: fixed;
   background-color: white;
   width: 10%;
-  height: 10%;
+  height: 15%;
   right: 0%;
   bottom: 0%; opacity:1; z-index: 40;
 }
