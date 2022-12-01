@@ -1,4 +1,4 @@
-#nextfloor2 {
+.nextfloor2 {
   z-index: 9;
   opacity: 0;
   position: fixed;
@@ -7,7 +7,7 @@
   background-color: rgb(255, 255, 255);
   animation: 3s nextfloor;
 }
-#nextfloorT2 {
+.nextfloorT2 {
   font-family: "OmniGothic";
   z-index: 10;
   font-size: 100px;
@@ -56,4 +56,58 @@
   left: 45.5%;
   top: 49%;
   width: 10%;
+}
+
+.text7 {
+  /*배경*/
+  z-index: 10;
+  font-family: "OmniGothic";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff0e9;
+}
+.content7 {
+  /*글 전체*/
+  font-family: "OmniGothic";
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.tNd7 {
+  /*가게 별*/
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  left: 5%;
+  bottom: 5%;
+  height: auto;
+}
+.tNd7 img {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+.title7 {
+  font-family: "OmniGothic";
+  font-size: 25px;
+  font-weight: 800;
+  width: 70%;
+}
+.desc7 {
+  font-family: "OmniGothic";
+  font-size: 20px;
+  font-weight: normal;
 }
