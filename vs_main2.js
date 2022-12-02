@@ -15,60 +15,65 @@ function nextClick() {
   }
   hideBack();
 
-  if (i == 1) {
+  if (i == 15) {
+    //1
     next.style.display = "none";
-    back.style.display=  "none";
+    back.style.display = "none";
     setTimeout(() => {
-      back.style.display= "";
+      back.style.display = "";
       next.style.display = "";
     }, 6000);
   }
 
-  if (i == 2) {
+  if (i == 16) {
+    //2
     next.style.display = "none";
-    back.style.display=  "none";
+    back.style.display = "none";
     setTimeout(() => {
-      back.style.display= "";
+      back.style.display = "";
       next.style.display = "";
     }, 3000);
   }
 
-
-  if (i == 3) {
+  if (i == 17) {
+    //3
     next.style.display = "none";
-    back.style.display=  "none";
+    back.style.display = "none";
     setTimeout(() => {
-      back.style.display= "";
+      back.style.display = "";
       next.style.display = "";
     }, 7000);
   }
 
-  if (i == 6) {
+  if (i == 20) {
+    //6
     next.style.display = "none";
-    back.style.display=  "none";
+    back.style.display = "none";
     setTimeout(() => {
-      back.style.display= "";
+      back.style.display = "";
       next.style.display = "";
     }, 6000);
   }
 
-  if (i == 7) {
+  if (i == 21) {
+    //7
     next.style.display = "none";
-    back.style.display=  "none";
+    back.style.display = "none";
     setTimeout(() => {
-      back.style.display= "";
+      back.style.display = "";
       next.style.display = "";
     }, 10000);
   }
- 
- if (i == 11) {
-  next.style.display = "none";
-  back.style.display=  "none";
-  setTimeout(() => {
-    back.style.display= "";
-    next.style.display = "";
-  }, 4000);
- }
+
+  if (i == 25) {
+    //11
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 4000);
+  }
   console.log(i);
 }
 
