@@ -65,7 +65,65 @@ function nextClick() {
     }, 8000);
   }
 
-  console.log(i);
+  if (i == 15) {
+    //1
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 6000);
+  }
+
+  if (i == 16) {
+    //2
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 3000);
+  }
+
+  if (i == 17) {
+    //3
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 7000);
+  }
+
+  if (i == 20) {
+    //6
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 6000);
+  }
+
+  if (i == 21) {
+    //7
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 10000);
+  }
+
+  if (i == 25) {
+    //11
+    next.style.display = "none";
+    back.style.display = "none";
+    setTimeout(() => {
+      back.style.display = "";
+      next.style.display = "";
+    }, 4000);
+  }
 }
 
 function backClick() {

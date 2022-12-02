@@ -15,7 +15,7 @@ function nextClick() {
   }
   hideBack();
 
-  if (i == 15) {
+  if (i == 1) {
     //1
     next.style.display = "none";
     back.style.display = "none";
@@ -25,7 +25,7 @@ function nextClick() {
     }, 6000);
   }
 
-  if (i == 16) {
+  if (i == 2) {
     //2
     next.style.display = "none";
     back.style.display = "none";
@@ -35,7 +35,7 @@ function nextClick() {
     }, 3000);
   }
 
-  if (i == 17) {
+  if (i == 3) {
     //3
     next.style.display = "none";
     back.style.display = "none";
@@ -45,7 +45,7 @@ function nextClick() {
     }, 7000);
   }
 
-  if (i == 20) {
+  if (i == 6) {
     //6
     next.style.display = "none";
     back.style.display = "none";
@@ -55,7 +55,7 @@ function nextClick() {
     }, 6000);
   }
 
-  if (i == 21) {
+  if (i == 7) {
     //7
     next.style.display = "none";
     back.style.display = "none";
@@ -65,7 +65,7 @@ function nextClick() {
     }, 10000);
   }
 
-  if (i == 25) {
+  if (i == 11) {
     //11
     next.style.display = "none";
     back.style.display = "none";
