@@ -31,13 +31,13 @@ function nextClick() {
     next.style.display = "none";
     setTimeout(() => {
       next.style.display = "";
-    }, 9000);
+    }, 12000);
   }
   if (i == 5) {
     next.style.display = "none";
     setTimeout(() => {
       next.style.display = "";
-    }, 1000);
+    }, 13000);
   }
 
   if (i == 6) {
@@ -50,7 +50,7 @@ function nextClick() {
     next.style.display = "none";
     setTimeout(() => {
       next.style.display = "";
-    }, 6000);
+    }, 7000);
   }
   if (i == 10) {
     next.style.display = "none";
@@ -62,7 +62,13 @@ function nextClick() {
     next.style.display = "none";
     setTimeout(() => {
       next.style.display = "";
-    }, 8000);
+    }, 9500);
+  }
+  if (i == 14) {
+    next.style.display = "none";
+    setTimeout(() => {
+      next.style.display = "";
+    }, 5000);
   }
 
   if (i == 15) {
