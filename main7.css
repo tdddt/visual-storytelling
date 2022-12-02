@@ -148,7 +148,12 @@
 }
 .narra7 {
   margin-left: 5%;
-  width: 63%;
+  width: 55%;
+  font-size: 0.9em;
+}
+.img7 {
+  margin-left: 5%;
+  width: 25%;
 }
 .background3 {
   position: absolute;

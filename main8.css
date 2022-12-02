@@ -50,5 +50,18 @@
 }
 .narra8 {
   margin-left: 5%;
-  width: 63%;
+  width: 55%;
+  font-size: 0.9em;
+}
+
+.img8 {
+  margin-left: 5%;
+  width: 25%;
+}
+.i88 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
