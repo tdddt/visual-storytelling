@@ -11,9 +11,9 @@
   /*글 전체*/
   font-family: "OmniGothic";
   position: absolute;
-  top: 5%;
   bottom: 5%;
-  left: 12%;
+  top: 5%;
+  left: 10%;
   width: 80%;
   height: 80%;
   display: flex;
@@ -42,15 +42,12 @@
 }
 .title8 {
   font-family: "OmniGothic";
-  width: 57%; margin-left: 5%;
+  width: 65%;
 }
 .desc8 {
   font-family: "OmniGothic";
   font-weight: normal;
 }
 .narra8 {
-  font-family: "OmniGothic";
-  font-size: 0.9em;
-  width: 52%;
-  left: 40%; top: 0%
+  width: 90%;
 }
