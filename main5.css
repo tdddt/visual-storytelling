@@ -72,7 +72,7 @@
   margin: auto;
   top: 50%;
   left: 50%;
-  width: 60%;
+  width: 80%;
   text-align: center;
   transform: translate(-50%, -50%);
   opacity: 0;
@@ -231,13 +231,12 @@
   flex-direction: column;
   width: 22%;
   margin: 2%;
-  left:20%;
-  margin-right:15%;
+  left: 20%;
+  margin-right: 15%;
 }
 .title5 {
   font-family: "OmniGothic";
   width: 60%;
-  
 }
 .desc5 {
   font-family: "OmniGothic";

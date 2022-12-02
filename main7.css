@@ -12,6 +12,8 @@
   font-size: 80px;
   font-weight: 550;
   position: fixed;
+  width: 80%;
+  text-align: center;
   margin: auto;
   top: 50%;
   left: 50%;
@@ -136,7 +138,8 @@
 }
 .title7 {
   font-family: "OmniGothic";
-  width: 57%; margin-left: 5%;
+  width: 57%;
+  margin-left: 5%;
 }
 .desc7 {
   font-family: "OmniGothic";
@@ -146,7 +149,8 @@
   font-family: "OmniGothic";
   font-size: 0.9em;
   width: 52%;
-  left: 40%; top: 0%
+  left: 40%;
+  top: 0%;
 }
 .background3 {
   position: absolute;
