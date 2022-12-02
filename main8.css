@@ -13,7 +13,7 @@
   position: absolute;
   top: 5%;
   bottom: 5%;
-  left: 10%;
+  left: 12%;
   width: 80%;
   height: 80%;
   display: flex;
@@ -42,18 +42,15 @@
 }
 .title8 {
   font-family: "OmniGothic";
-  font-size: 25px;
-  font-weight: 800;
-  width: 70%;
+  width: 57%; margin-left: 5%;
 }
 .desc8 {
   font-family: "OmniGothic";
-  font-size: 20px;
   font-weight: normal;
 }
 .narra8 {
   font-family: "OmniGothic";
-  font-size: 20px;
-  width: 90%;
-  font-weight: normal;
+  font-size: 0.9em;
+  width: 52%;
+  left: 40%; top: 0%
 }
