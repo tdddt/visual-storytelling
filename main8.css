@@ -1,0 +1,59 @@
+.text8 {
+  /*배경*/
+  z-index: 10;
+  font-family: "OmniGothic";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff0e9;
+}
+.content8 {
+  /*글 전체*/
+  font-family: "OmniGothic";
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.tNd8 {
+  /*가게 별*/
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  left: 5%;
+  bottom: 5%;
+  height: auto;
+}
+.tNd8 img {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+.title8 {
+  font-family: "OmniGothic";
+  font-size: 25px;
+  font-weight: 800;
+  width: 70%;
+}
+.desc8 {
+  font-family: "OmniGothic";
+  font-size: 20px;
+  font-weight: normal;
+}
+.narra8 {
+  font-family: "OmniGothic";
+  font-size: 20px;
+  width: 90%;
+  font-weight: normal;
+}
