@@ -111,13 +111,13 @@
   position: absolute;
   top: 5%;
   bottom: 5%;
-  left: 10%;
+  left: 13%;
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
 }
@@ -140,14 +140,15 @@
 }
 .title7 {
   font-family: "OmniGothic";
-  width: 65%;
+  width: 67%;
 }
 .desc7 {
   font-family: "OmniGothic";
   font-weight: normal;
 }
 .narra7 {
-  width: 90%;
+  margin-left: 5%;
+  width: 63%;
 }
 .background3 {
   position: absolute;
