@@ -25,7 +25,7 @@
   position:absolute;
   width:100%;
   height:100%;
-  opacity:0.3;
+  opacity:0.4;
 }
 
 
@@ -102,7 +102,7 @@
   position: absolute;
   width: 40%;
   margin: 5%;
-  left: 35%;
+  left: 35%; top:5%;
 }
 #text3-Play{
   z-index:8;
@@ -151,21 +151,21 @@
 }
 #img3-bear {
   position: absolute;
-  width: 14%;
-  left: 20%;
-  top: 7%;
+  height: 23%;
+  left: 30%; transform:translate(-50%,-50%);
+  top: 20%;
 }
 #img3-play {
   position: absolute;
-  width: 14%;
-  left: 20%;
-  top: 34%;
+  height: 23%;
+  left: 30%; transform:translate(-50%,-50%);
+  top: 47%;
 }
 #img3-al {
   position: absolute;
-  width: 14%;
-  left: 20%;
-  top: 61%;
+  height: 23%;
+  left: 30%; transform:translate(-50%,-50%);
+  top: 74%;
 }
 
 @keyframes ani3 {
@@ -381,39 +381,39 @@
 
 #behindS1{
   position:absolute; z-index: 10;
-  width: 15%;
-  left: 35%; bottom: 10%;
+  height: 35%;
+  left: 35%; bottom: 13%;
   transform:rotate(20deg);
 }
 #behindS2{
   position:absolute; z-index: 10;
-  width: 20%;
+  height: 20%;
   left:10%; bottom:20%;
   transform:rotate(-10deg);
 }
 #behindP1{
   position:absolute; z-index: 10;
-  width: 20%;
+  height: 35%;
   left: 10%; bottom: 15%;
   transform:rotate(-20deg);
 }
 
 #behindP2{
   position:absolute; z-index: 10;
-  width: 15%;
+  height: 25%;
   left: 35%; bottom: 15%;
   transform:rotate(20deg);
 }
 #behindA1{
   position:absolute; z-index: 10;
-  width: 15%;
+  height: 22%;
   left: 36%; bottom: 13%;
   transform:rotate(20deg);
   
 }
 #behindA2{
   position:absolute; z-index: 10;
-  width: 23%;
+  height: 30%;
   left: 10%; bottom: 10%;
 }
 
